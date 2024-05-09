@@ -11,4 +11,4 @@ Contains a USB2514Bi 4-port USB hub connected as follows:
 - Port 3: USB UART converter
 - Port 4: Touch panel digitizer
 
-I thought the USB UART chip (SILABS CP2102) was for the pen digitizer, but it appears to connect to the RTD2483AD display controller chip instead, no idea what its function is.
+I thought the USB UART chip (SILABS CP2102) was for the pen digitizer, but it appears to connect to the RTD2483AD display controller chip instead, might be for brightness control.
