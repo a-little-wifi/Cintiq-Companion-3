@@ -1835,6 +1835,246 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1969,6 +2209,12 @@
 		(uuid "62b27c84-a22e-4093-ba3e-06780b881e4f")
 	)
 	(junction
+		(at 195.58 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67968f5c-b58e-46e5-b2d0-b15096e1755b")
+	)
+	(junction
 		(at 88.9 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1979,6 +2225,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99fe723f-7b83-4665-9100-305180534464")
+	)
+	(junction
+		(at 238.76 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4256462-c81b-48a6-82e6-8f6b6ddcdfa3")
 	)
 	(junction
 		(at 123.19 33.02)
@@ -2011,10 +2263,32 @@
 		(uuid "e5c34877-a636-4a93-a60e-406e3122ae4c")
 	)
 	(junction
+		(at 246.38 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f23268c2-18a9-4117-b996-482287ea1907")
+	)
+	(junction
 		(at 248.92 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f272854e-04ee-403a-9bf3-62ea6b65c75f")
+	)
+	(junction
+		(at 92.71 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f835da11-36ab-497f-b070-0447f76b739c")
+	)
+	(wire
+		(pts
+			(xy 238.76 25.4) (xy 238.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040e53ba-d881-493f-b1cf-24923f2e7b07")
 	)
 	(wire
 		(pts
@@ -2028,13 +2302,53 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 34.29) (xy 193.04 34.29)
+			(xy 195.58 31.75) (xy 195.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf61230-efde-4432-a06d-d5731f0bffba")
+	)
+	(wire
+		(pts
+			(xy 195.58 35.56) (xy 193.04 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d0d0218-0fc1-4da3-9c2c-6973630c2c71")
+	)
+	(wire
+		(pts
+			(xy 88.9 41.91) (xy 92.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6b276b-0b55-455b-9e00-8616a01a5f47")
+	)
+	(wire
+		(pts
+			(xy 50.8 90.17) (xy 46.99 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117841e0-7b02-4f4c-b757-551734bbc4ca")
+	)
+	(wire
+		(pts
+			(xy 201.93 30.48) (xy 201.93 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11792124-2f4a-4b8c-8f26-8e94c41460b8")
 	)
 	(wire
 		(pts
@@ -2045,26 +2359,6 @@
 			(type default)
 		)
 		(uuid "13162110-a321-40b6-8d7d-f2a6f663f5cb")
-	)
-	(wire
-		(pts
-			(xy 250.19 57.15) (xy 247.65 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1701641f-740c-4055-b4fa-7893d4512496")
-	)
-	(wire
-		(pts
-			(xy 247.65 92.71) (xy 250.19 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1872fa76-435a-415d-9b71-3c0bb09a4d49")
 	)
 	(wire
 		(pts
@@ -2098,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 95.25) (xy 247.65 95.25)
+			(xy 250.19 95.25) (xy 238.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2208,7 +2502,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 31.75) (xy 93.98 34.29)
+			(xy 246.38 57.15) (xy 250.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6624ee71-4db2-4580-b3b7-286bf7bdfadb")
+	)
+	(wire
+		(pts
+			(xy 93.98 31.75) (xy 93.98 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2218,7 +2522,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 59.69) (xy 250.19 59.69)
+			(xy 246.38 59.69) (xy 250.19 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2268,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 95.25) (xy 247.65 92.71)
+			(xy 238.76 95.25) (xy 238.76 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2338,6 +2642,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 41.91) (xy 92.71 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9358868a-8402-4c67-947b-721ea093431a")
+	)
+	(wire
+		(pts
 			(xy 250.19 54.61) (xy 248.92 54.61)
 		)
 		(stroke
@@ -2355,6 +2669,26 @@
 			(type default)
 		)
 		(uuid "99f25f09-587f-48e3-b73a-f2a74f100c58")
+	)
+	(wire
+		(pts
+			(xy 238.76 92.71) (xy 250.19 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f80766-b453-42c5-93a5-44337f212b97")
+	)
+	(wire
+		(pts
+			(xy 201.93 35.56) (xy 195.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45568ac-2f99-4817-8ffc-cb74afd70474")
 	)
 	(wire
 		(pts
@@ -2438,23 +2772,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 34.29) (xy 91.44 31.75)
+			(xy 91.44 35.56) (xy 91.44 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c2f78e2e-e27c-4431-aaef-cb82f15fc949")
-	)
-	(wire
-		(pts
-			(xy 195.58 31.75) (xy 195.58 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c35e07c2-baed-4836-abd1-f69ee173f738")
 	)
 	(wire
 		(pts
@@ -2528,6 +2852,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 25.4) (xy 246.38 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da39e5f5-8b1c-4699-893d-6c00b3674179")
+	)
+	(wire
+		(pts
 			(xy 52.07 87.63) (xy 46.99 87.63)
 		)
 		(stroke
@@ -2548,7 +2882,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 34.29) (xy 193.04 31.75)
+			(xy 193.04 35.56) (xy 193.04 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2578,6 +2912,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 35.56) (xy 91.44 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb8c128f-b94b-444b-9954-385131a34feb")
+	)
+	(wire
+		(pts
 			(xy 151.13 26.67) (xy 152.4 26.67)
 		)
 		(stroke
@@ -2585,6 +2929,16 @@
 			(type default)
 		)
 		(uuid "ebc60371-9eca-4652-8c83-7f0b99b26998")
+	)
+	(wire
+		(pts
+			(xy 50.8 77.47) (xy 50.8 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebdc500a-e76c-4ff8-80ae-8e8d63dfe702")
 	)
 	(wire
 		(pts
@@ -2608,7 +2962,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 57.15) (xy 247.65 59.69)
+			(xy 246.38 57.15) (xy 246.38 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2628,7 +2982,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 34.29) (xy 91.44 34.29)
+			(xy 88.9 40.64) (xy 88.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc92c97a-b8d7-484d-8e58-d74057c295ce")
+	)
+	(wire
+		(pts
+			(xy 93.98 35.56) (xy 92.71 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2792,6 +3156,136 @@
 			(project "cintiq-companion-3"
 				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 50.8 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14844557-6267-431a-b522-f05db0f771ac")
+		(property "Reference" "#PWR05"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 50.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96122be2-d688-4d42-a2d4-de3139527cdd")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 246.38 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22fa83be-dac9-4cbc-8e89-310a97072d37")
+		(property "Reference" "#PWR08"
+			(at 246.38 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 246.38 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 246.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0385c90-8505-44cd-937e-21f4c49fa48d")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -3132,6 +3626,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 201.93 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e9cdb80-93ec-4268-bb67-d713ebb55f7d")
+		(property "Reference" "#PWR07"
+			(at 201.93 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 201.93 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 201.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acb55558-4036-45c7-b1a7-3da10d3f7f44")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 238.76 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9997aac4-8c7b-427d-a29d-57efbb6320da")
+		(property "Reference" "#PWR09"
+			(at 238.76 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+46V_BL"
+			(at 238.76 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 238.76 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96197aff-55e8-48a8-8e70-77c77dda6437")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin")
 		(at 41.91 85.09 180)
 		(unit 1)
@@ -3273,6 +3897,71 @@
 			(project "cintiq-companion-3"
 				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 88.9 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af0a52be-1603-44a4-a6b7-d3c4b1cec04b")
+		(property "Reference" "#PWR06"
+			(at 88.9 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 88.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "444c0361-4c07-40f3-83f3-ba54b659a254")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
