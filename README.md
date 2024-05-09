@@ -4,7 +4,7 @@ I have a dead Cintiq 13HD (pen+touch) that won't display anything. I know the lc
 
 Wacom made a tablet PC based on the 13HD called the Cintiq Companion, then they made a Cintiq Companion 2, so this will be the Cintiq Companion 3.
 
-Contains a USB2514B 4-port USB hub connected as follows:
+Contains a USB2514Bi 4-port USB hub connected as follows:
 
 - Port 1: Pen digitizer?
 - Port 2: External USB port
