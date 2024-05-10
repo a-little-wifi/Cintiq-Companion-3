@@ -136,7 +136,7 @@
 	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 		(layer "F.Cu")
 		(uuid "13e89bea-ea32-4217-91c9-50175d7b0a18")
-		(at 195.4 72.1)
+		(at 237 73)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
 		(property "Reference" "TP1"
@@ -250,7 +250,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "394f0ca6-a042-4946-8638-97b204a0932e")
-		(at 189.6 89.3 -90)
+		(at 237 86 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -460,7 +460,7 @@
 	(footprint "A_my_stuff:30pipex"
 		(layer "F.Cu")
 		(uuid "46c6e982-2007-4cc9-a983-12633c7a225f")
-		(at 164.25 77.64 180)
+		(at 90 78 180)
 		(property "Reference" "X2"
 			(at 0 -5.460001 180)
 			(layer "F.SilkS")
@@ -1171,7 +1171,7 @@
 	(footprint "A_my_stuff:minitek5p0.8mm"
 		(layer "F.Cu")
 		(uuid "61413d3f-99d9-44ed-9a5d-392157043e0b")
-		(at 144.9 96.9 -90)
+		(at 68 148 -90)
 		(property "Reference" "CN1"
 			(at 0.000001 -4.9 90)
 			(layer "F.SilkS")
@@ -1419,7 +1419,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "700de57c-7723-47fd-80bb-d1db8d9bea2d")
-		(at 156.3 86.6 -90)
+		(at 83 84.824999 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -1629,7 +1629,7 @@
 	(footprint "A_my_stuff:30pipex"
 		(layer "F.Cu")
 		(uuid "70b6f3bb-ea5a-4011-974c-4cdbde7acebd")
-		(at 194.260001 86.05 90)
+		(at 243 83 90)
 		(property "Reference" "X1"
 			(at 0.000001 -5.46 -90)
 			(layer "F.SilkS")
@@ -2340,7 +2340,7 @@
 	(footprint "Connector_FFC-FPC:Hirose_FH12-16S-0.5SH_1x16-1MP_P0.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9e4dfe7c-7615-45ae-8130-82ac8848aa34")
-		(at 184.299999 79.549999 180)
+		(at 184 78 180)
 		(descr "Hirose FH12, FFC/FPC connector, FH12-16S-0.5SH, 16 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator")
 		(tags "connector Hirose FH12 horizontal")
 		(property "Reference" "J3"
@@ -2874,7 +2874,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f68a7750-8d06-4156-89c8-b29dd865174e")
-		(at 160 86.6 -90)
+		(at 86.7 84.824999 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
