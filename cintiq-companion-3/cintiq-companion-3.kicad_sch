@@ -4414,7 +4414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 213.36 73.66 0)
 			(effects
 				(font
@@ -4483,7 +4483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 58.42 49.53 0)
 			(effects
 				(font
@@ -4731,7 +4731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 48.26 49.53 0)
 			(effects
 				(font
@@ -4906,15 +4906,15 @@
 	(symbol
 		(lib_id "A_my_stuff:30pipex")
 		(at 255.27 66.04 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "720bbacf-1002-43d4-811c-96f74061b5e0")
 		(property "Reference" "X1"
-			(at 264.16 64.7699 0)
+			(at 264.16 67.3101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +4923,7 @@
 			)
 		)
 		(property "Value" "13HD_eDP"
-			(at 264.16 67.3099 0)
+			(at 264.16 64.7701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,8 +4931,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "30pipex:FPC-SMD_ALC04-S30EIA-00"
-			(at 255.27 115.57 0)
+		(property "Footprint" "A_my_stuff:30pipex"
+			(at 255.27 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4959,7 +4959,7 @@
 			)
 		)
 		(property "LCSC Part" "C2842535"
-			(at 255.27 118.11 0)
+			(at 255.27 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,13 +5080,13 @@
 	)
 	(symbol
 		(lib_id "A_my_stuff:30pipex")
-		(at 80.01 26.67 90)
+		(at 80.01 26.67 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "865a460c-4287-4c7b-8b58-c7e48cee979c")
 		(property "Reference" "X2"
 			(at 80.01 13.97 90)
@@ -5104,8 +5104,8 @@
 				)
 			)
 		)
-		(property "Footprint" "30pipex:FPC-SMD_ALC04-S30EIA-00"
-			(at 129.54 26.67 0)
+		(property "Footprint" "A_my_stuff:30pipex"
+			(at 30.48 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +5132,7 @@
 			)
 		)
 		(property "LCSC Part" "C2842535"
-			(at 132.08 26.67 0)
+			(at 27.94 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
