@@ -130,6 +130,123 @@
 	(net 48 "unconnected-(X2-Pad3)")
 	(net 49 "unconnected-(X2-Pad4)")
 	(net 50 "unconnected-(X2-Pad7)")
+	(net 51 "/fingerpanel_USB_D+")
+	(net 52 "/fingerpanel_USB_D-")
+	(net 53 "unconnected-(CN1-Pad2)")
+	(footprint "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+		(layer "F.Cu")
+		(uuid "13e89bea-ea32-4217-91c9-50175d7b0a18")
+		(at 195.4 72.1)
+		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
+		(tags "test point THT pad")
+		(property "Reference" "TP1"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(uuid "72859f67-2bcf-4c30-b3ed-194144fce3bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Something"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "390facff-26c4-4f95-8a67-37e47a0bccdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a69d09b2-641e-4e00-ba6f-1c6ee2892491")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7abf4652-6f42-4d33-a331-6bafd0380a6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3067a270-8a51-4fb1-a672-e2cf6c0d476a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/c00023a7-0b9d-404b-bf76-652991c2b140")
+		(sheetname "Root")
+		(sheetfile "cintiq-companion-3.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "8b977e30-37ae-4b05-ba6b-e004ba55749e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "930dcdcb-d1aa-441b-ba1e-f62dd72d156e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "e30f39f0-31ac-497a-8dd8-4b4139ebd910")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 20 "Net-(TP1-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "1b4c69dc-f35c-4485-a374-edfa72d395fa")
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "394f0ca6-a042-4946-8638-97b204a0932e")
@@ -1051,6 +1168,254 @@
 			)
 		)
 	)
+	(footprint "A_my_stuff:minitek5p0.8mm"
+		(layer "F.Cu")
+		(uuid "61413d3f-99d9-44ed-9a5d-392157043e0b")
+		(at 144.9 96.9 -90)
+		(property "Reference" "CN1"
+			(at 0.000001 -4.9 90)
+			(layer "F.SilkS")
+			(uuid "331eb037-2d56-49b5-b581-0b05e6dab840")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "13HD_fingerpanel"
+			(at -0.000001 4.9 90)
+			(layer "F.Fab")
+			(uuid "9ff3221c-c2c2-425e-b17a-708a2ea57418")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "A_my_stuff:minitek5p0.8mm"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e2d0ddf-477a-4482-91c7-a9b055e223ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ceda5a0b-d031-44e8-af13-f0b3128744d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e68fdfbb-1965-4f8f-b6b3-b177c5b39561")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2845346"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cef6c855-8ec5-433c-a4ce-4e29e51ccde1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b391eeb0-5e7f-4ef7-a6a3-ab5fbb42202f")
+		(sheetname "Root")
+		(sheetfile "cintiq-companion-3.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.02 1.7)
+			(end 2.030001 1.7)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "975969cc-7f38-4a80-a985-7866228d5153")
+		)
+		(fp_line
+			(start -3.15 -0.079999)
+			(end -3.149999 -1.32)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cc285651-8df3-41c1-87fb-fd102e250be1")
+		)
+		(fp_line
+			(start -3.149999 -1.32)
+			(end -2.11 -1.319999)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eb6689e8-0e4f-41b5-b4dd-f0138f1fb2b5")
+		)
+		(fp_line
+			(start 3.150001 -1.32)
+			(end 3.15 -0.080001)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "06087cad-671e-4a0f-80da-18754fb26835")
+		)
+		(fp_line
+			(start 3.150001 -1.32)
+			(end 2.109999 -1.32)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d8974db3-b11e-4c49-8793-f0c8c9623a23")
+		)
+		(fp_circle
+			(center -2.3 -1.7)
+			(end -2.2 -1.7)
+			(stroke
+				(width 0.25)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "8d0adc97-6344-4739-a6b5-69c4af8801e8")
+		)
+		(fp_circle
+			(center -1.6 -1.3)
+			(end -1.449999 -1.299999)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "8a9d5f7b-4e21-4ac6-a584-30c3deda8f3f")
+		)
+		(fp_circle
+			(center -3.150001 -1.100001)
+			(end -3.12 -1.100001)
+			(stroke
+				(width 0.06)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "472efe08-1194-47d7-b7e5-582f4e026935")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "d5e4df2e-7750-41bd-b789-da250a829ed4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.6 -0.9 270)
+			(size 0.55 1.23)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 5 "GND")
+			(pinfunction "1")
+			(pintype "unspecified")
+			(uuid "6c954647-0bf3-4fc6-b9cb-cb8060f5cbd0")
+		)
+		(pad "2" smd rect
+			(at -0.8 -0.899999 270)
+			(size 0.55 1.23)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 53 "unconnected-(CN1-Pad2)")
+			(pinfunction "2")
+			(pintype "unspecified+no_connect")
+			(uuid "a6610dd6-8a5a-481e-af36-990cf81dd2aa")
+		)
+		(pad "3" smd rect
+			(at -0.000001 -0.900001 270)
+			(size 0.55 1.23)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 51 "/fingerpanel_USB_D+")
+			(pinfunction "3")
+			(pintype "unspecified")
+			(uuid "0f527640-9b1e-4e11-9ca5-183be5826f34")
+		)
+		(pad "4" smd rect
+			(at 0.8 -0.900001 270)
+			(size 0.55 1.23)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 52 "/fingerpanel_USB_D-")
+			(pinfunction "4")
+			(pintype "unspecified")
+			(uuid "71d0b70e-5aca-445c-aca9-af772e30fd91")
+		)
+		(pad "5" smd rect
+			(at 1.6 -0.9 270)
+			(size 0.55 1.23)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 34 "+5V")
+			(pinfunction "5")
+			(pintype "unspecified")
+			(uuid "400268c6-2371-4cb5-baa6-bf4295ea5500")
+		)
+		(pad "6" smd rect
+			(at 2.75 0.9 270)
+			(size 1 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 5 "GND")
+			(pinfunction "6")
+			(pintype "unspecified")
+			(uuid "77c17f0b-702a-44f0-b4a9-947f1850ed82")
+		)
+		(pad "7" smd rect
+			(at -2.75 0.9 270)
+			(size 1 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 5 "GND")
+			(pinfunction "7")
+			(pintype "unspecified")
+			(uuid "5e852b77-b4de-4482-bae5-124bba2fb9b2")
+		)
+		(model "C:/Users/WiFiCable/Documents/KiCad/easyeda2kicad/minitek5p0.8mm.3dshapes/CONN-SMD_5P-P0.80_HCTL_HC-0.8-5PWT.wrl"
+			(offset
+				(xyz 0 -0.31 -0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "700de57c-7723-47fd-80bb-d1db8d9bea2d")
@@ -1266,7 +1631,7 @@
 		(uuid "70b6f3bb-ea5a-4011-974c-4cdbde7acebd")
 		(at 194.260001 86.05 90)
 		(property "Reference" "X1"
-			(at 0.000001 -5.46 270)
+			(at 0.000001 -5.46 -90)
 			(layer "F.SilkS")
 			(uuid "c27fe3d3-cb44-4100-8c07-d32682fe59b9")
 			(effects
@@ -1277,7 +1642,7 @@
 			)
 		)
 		(property "Value" "13HD_eDP"
-			(at -0.000001 5.46 270)
+			(at -0.000001 5.46 -90)
 			(layer "F.Fab")
 			(uuid "c708172e-505c-43a9-be6b-bb755fbaa07b")
 			(effects
@@ -1644,7 +2009,7 @@
 			(uuid "55e12cae-af01-45b2-b117-9808a8e6fd42")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "5c2e1d40-b3d7-4294-932d-03a0d39d2503")
 			(effects

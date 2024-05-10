@@ -12,3 +12,5 @@ Contains a USB2514Bi 4-port USB hub connected as follows:
 - Port 4: Touch panel digitizer
 
 I thought the USB UART chip (SILABS CP2102) was for the pen digitizer, but it appears to connect to the RTD2483AD display controller chip instead, might be for brightness control.
+
+This is probably the right connector for the touch panel: https://www.lcsc.com/product-detail/Wire-To-Board-Connector_HCTL-HC-0-8-5PWT_C2845346.html
