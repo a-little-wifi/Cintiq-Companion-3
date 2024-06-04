@@ -6313,6 +6313,326 @@
 			)
 			(uuid "a6277f58-d231-4c7d-a796-3297d1d2f180")
 		)
+		(pin "TCP1_TXRX1+" output
+			(at 73.66 271.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b9795b7-b26f-48d3-b9f5-ca86a37bda12")
+		)
+		(pin "TCP1_HPD" input
+			(at 73.66 274.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8cf0d1c1-0667-46d3-b78c-ee7a875a3a4a")
+		)
+		(pin "TCP1_AUX+" output
+			(at 73.66 276.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "416f73c4-5ae7-4d0d-8954-c58f9e1bdbeb")
+		)
+		(pin "TCP1_DDC_SCL" output
+			(at 73.66 279.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa035eff-b206-45db-bd17-64c66b9ece34")
+		)
+		(pin "TCP1_DDC_SDA" bidirectional
+			(at 73.66 280.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42f6422b-1137-444b-8fb6-fd06988996c5")
+		)
+		(pin "TCP1_AUX-" output
+			(at 73.66 283.21 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0afc62f9-5d01-4914-9bcf-5f106d002419")
+		)
+		(pin "TCP1_TX0-" output
+			(at 73.66 285.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d8f9e27b-4ba3-4e13-87b3-8ae1a7c7781e")
+		)
+		(pin "TCP1_TXRX1-" output
+			(at 73.66 288.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b89e4488-f893-4434-85b6-0e7ee6728d42")
+		)
+		(pin "TCP1_TX1-" output
+			(at 73.66 292.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bab8f8c9-812b-487b-9a19-6a8a7d50bcdc")
+		)
+		(pin "TCP1_TX1+" output
+			(at 73.66 293.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f1f1dc81-6dea-42d3-943d-c4ca875d127c")
+		)
+		(pin "TCP1_TX0+" output
+			(at 73.66 294.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "840090ef-3671-4a1b-9853-c5a696b1c00a")
+		)
+		(pin "TCP1_TXRX0+" output
+			(at 73.66 295.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ebc735c5-0a08-4d3a-8a00-02d73260152a")
+		)
+		(pin "TCP1_TXRX0-" output
+			(at 73.66 297.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "925d06d1-c550-4ef8-9ae9-006ab9b34221")
+		)
+		(pin "TCP0_TXRX0+" output
+			(at 73.66 246.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3b0f6f61-4431-4e0f-a9fa-9f2ce3f27d9b")
+		)
+		(pin "TCP0_TXRX0-" output
+			(at 73.66 247.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "38c8fe6b-71f3-44c7-ad30-61bbe9990733")
+		)
+		(pin "TCP0_TX0-" output
+			(at 73.66 248.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9ebc5e5d-7116-4090-a800-2e3ce7a18898")
+		)
+		(pin "TCP0_TX1-" output
+			(at 73.66 250.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a8607729-7aff-4e77-8f46-46a738c5956d")
+		)
+		(pin "TCP0_TX1+" output
+			(at 73.66 251.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f47fdc63-9559-412c-bca5-c515427ccb9d")
+		)
+		(pin "TCP0_TX0+" output
+			(at 73.66 252.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a826e8fd-7c99-4404-9001-91878553e62d")
+		)
+		(pin "USB_2_P8+" bidirectional
+			(at 73.66 254 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "870e31c2-05fe-4717-90b7-5e70d89d4efe")
+		)
+		(pin "USB_2_P8-" bidirectional
+			(at 73.66 255.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "de39848d-3f17-4ba4-952d-20c812ffcd73")
+		)
+		(pin "DDI_B_AUX-" output
+			(at 73.66 256.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b62913ff-e88b-4b8d-8668-2d3de94f515b")
+		)
+		(pin "DDI_B_AUX+" output
+			(at 73.66 257.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "929d711f-cf54-4f42-bde7-78b65c53ac00")
+		)
+		(pin "USB_2_P4+" bidirectional
+			(at 73.66 259.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec300510-7157-4fbc-adac-517725f0d6e1")
+		)
+		(pin "USB_2_P4-" bidirectional
+			(at 73.66 260.35 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "93924b8b-0042-4eef-a09f-0dafe59a4375")
+		)
+		(pin "TCP0_TXRX1-" output
+			(at 73.66 245.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "49f4c1a5-c8b3-48a4-b62f-05c045210636")
+		)
+		(pin "TCP0_DDC_SDA" bidirectional
+			(at 101.6 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c321282-8b62-4162-86fb-6cbbcfdec60a")
+		)
+		(pin "TCP0_DDC_SCL" output
+			(at 104.14 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c78a015e-41f6-4430-8292-2ee07a0a1102")
+		)
+		(pin "TCP0_TXRX1+" output
+			(at 106.68 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b79f2038-d3f2-4a65-89a8-2a6de2308b09")
+		)
+		(pin "TCP0_HPD" input
+			(at 109.22 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "187c0ef5-39e1-4381-91ca-2acb9c6d1e2f")
+		)
+		(pin "TCP0_AUX-" output
+			(at 110.49 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0b9f69cf-e7dc-4755-b722-b28f3a206261")
+		)
+		(pin "TCP0_AUX+" output
+			(at 113.03 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e291a650-ecfa-48b4-b723-3c347bb05960")
+		)
 		(instances
 			(project "cintiq-companion-3"
 				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d"
