@@ -13704,7 +13704,7 @@
 			"dUQx3GDkVVcAAAAASUVORK5CYII="
 		)
 	)
-	(text_box "DDI B used for HDMI no actually eDP\n"
+	(text_box "DDI B used for HDMI"
 		(exclude_from_sim no)
 		(at 251.46 231.14 0)
 		(size 39.37 10.16)
@@ -13907,9 +13907,9 @@
 		)
 		(uuid "1f662408-1b64-4553-b5d5-1ffd21fa784c")
 	)
-	(text "HSIO functions are defined by the BIOS source code, \nCannot be changed in BIOS settings.\n\nBefore starting design, you should choose one of\nthe available BIOS configurations on:\nhttps://github.com/LattePandaTeam/LattePanda-Mu\nOr contact techsupport for custom your BIOS\n\nThe default functions are defined as follows:\n\n- HSIO0: USB3.2 10Gbps\n- HSIO1: USB3.2 10Gbps\n- HSIO2: PCIe 3.0 x1\n- HSIO3: PCIe 3.0 x1\n\n- HSIO8: PCIe 3.0 x4 (Lane 0)\n- HSIO9: PCIe 3.0 x4 (Lane 1)\n- HSIO10: PCIe 3.0 x4 (Lane 2)\n- HSIO11: PCIe 3.0 x4 (Lane 3)\n\n- HSIO6: PCIe 3.0 x1"
+	(text "HSIO functions are defined by the BIOS source code, \nCannot be changed in BIOS settings.\n\nBefore starting design, you should choose one of\nthe available BIOS configurations on:\nhttps://github.com/LattePandaTeam/LattePanda-Mu\nOr contact techsupport for custom your BIOS\n\nThe default functions are defined as follows:\n\n- HSIO0: USB3.2 10Gbps\n- HSIO1: USB3.2 10Gbps\n- HSIO2: PCIe 3.0 x1\n- HSIO3: PCIe 3.0 x1\n\n- HSIO8: PCIe 3.0 x4 (Lane 0)\n- HSIO9: PCIe 3.0 x4 (Lane 1)\n- HSIO10: PCIe 3.0 x4 (Lane 2)\n- HSIO11: PCIe 3.0 x4 (Lane 3)\n\n- HSIO6: PCIe 3.0 x1\n"
 		(exclude_from_sim no)
-		(at 127 100.33 0)
+		(at 128.27 20.32 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -13931,6 +13931,20 @@
 		)
 		(uuid "470dfc16-8cc1-4f75-82d4-c7c41afba02f")
 	)
+	(text "no actually eDP\n"
+		(exclude_from_sim no)
+		(at 264.16 237.49 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 121 154 1)
+			)
+			(justify left top)
+		)
+		(uuid "51176507-4e15-41cc-8a76-020f518e4c1d")
+	)
 	(text "HPD pin of unused DDI/TCP port\nneeds to be pulled down"
 		(exclude_from_sim no)
 		(at 261.62 260.35 0)
@@ -13941,6 +13955,20 @@
 			(justify right top)
 		)
 		(uuid "56ebbc9d-2b22-4add-b156-9f24e04a5b5f")
+	)
+	(text "rough HSIO plan:\n\nHSIO A:\nidk yet, many possibilities.\nCould add a B-key m.2 slot with PCIe and USB3\nShould probably have at least one Type-A USB3 port too\n0:  \n1:  \n2:  \n3:  \n\nHSIO B:\nPCIe 4x1, HSIO11 sata/pcie with gpio for M-key m.2 slot\n8:  SSD PCIe x4 Lane 3\n9:  SSD PCIe x4 Lane 2\n10: SSD PCIe x4 Lane 1 (/ SATA?)\n11: SSD PCIe x4 Lane 0 / SATA\n\nHSIO C:\nPCIe 1x1 for E-key m.2 slot for Wifi\n6:  Wifi PCIe x1 "
+		(exclude_from_sim no)
+		(at 127 123.19 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 121 154 1)
+			)
+			(justify left top)
+		)
+		(uuid "5b71a7a9-3095-44cf-b4e6-168a350ef332")
 	)
 	(text "DDI/TCP functions are defined by the BIOS source code, \nCannot be changed in BIOS settings.\n\nBefore starting design, you should choose one of\nthe available BIOS configurations on:\nhttps://github.com/LattePandaTeam/LattePanda-Mu\n\nThe default functions are defined as follows:\n\n- DDIA: eDP 1.4b (the 40Pin connector on the Mu)\n\n- DDIB: HDMI 2.0\n\n- TCP0: HDMI 2.0\n\n- TCP1: USB TypeC (need external PD controller)"
 		(exclude_from_sim no)
@@ -13998,6 +14026,20 @@
 			(justify left)
 		)
 		(uuid "c1b8aac5-913c-41ba-b4fe-d85e77176c77")
+	)
+	(text "I got the flash image tool,\nso I should be able to change\nit to whatever I need :3"
+		(exclude_from_sim no)
+		(at 128.27 107.95 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 121 154 1)
+			)
+			(justify left top)
+		)
+		(uuid "f5b42ae2-d330-4a67-b5b8-2fba464a1387")
 	)
 	(global_label "DDI_B_TX3+"
 		(shape output)
@@ -14107,7 +14149,7 @@
 		)
 	)
 	(global_label "TCP0_TXRX0+"
-		(shape output)
+		(shape bidirectional)
 		(at 334.01 285.75 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14150,7 +14192,7 @@
 		)
 	)
 	(global_label "TCP0_TXRX1-"
-		(shape output)
+		(shape bidirectional)
 		(at 334.01 278.13 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14214,8 +14256,8 @@
 		)
 	)
 	(global_label "eDP_L0-"
-		(shape input)
-		(at 308.61 236.22 180)
+		(shape output)
+		(at 308.61 255.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14225,7 +14267,7 @@
 		)
 		(uuid "159703bf-560f-44e2-9e25-75cf6ba3c126")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.2186 236.22 0)
+			(at 297.2186 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14426,7 +14468,7 @@
 		)
 	)
 	(global_label "TCP1_TXRX0+"
-		(shape output)
+		(shape bidirectional)
 		(at 334.01 323.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14748,7 +14790,7 @@
 		)
 	)
 	(global_label "TCP0_TXRX0-"
-		(shape output)
+		(shape bidirectional)
 		(at 334.01 288.29 180)
 		(fields_autoplaced yes)
 		(effects
@@ -14812,8 +14854,8 @@
 		)
 	)
 	(global_label "eDP_L0+"
-		(shape input)
-		(at 308.61 238.76 180)
+		(shape output)
+		(at 308.61 252.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14823,7 +14865,7 @@
 		)
 		(uuid "503665fd-a96c-46b9-8fd5-682bbb4d48a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.2186 238.76 0)
+			(at 297.2186 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14941,8 +14983,8 @@
 		)
 	)
 	(global_label "eDP_AUX-"
-		(shape input)
-		(at 308.61 246.38 180)
+		(shape output)
+		(at 308.61 234.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14952,7 +14994,7 @@
 		)
 		(uuid "5da7b8f8-db51-43dc-9783-37a2c2f7bbef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 295.8276 246.38 0)
+			(at 295.8276 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14985,7 +15027,7 @@
 		)
 	)
 	(global_label "TCP1_TXRX1+"
-		(shape output)
+		(shape bidirectional)
 		(at 334.01 313.69 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15071,8 +15113,8 @@
 		)
 	)
 	(global_label "eDP_L1-"
-		(shape input)
-		(at 308.61 228.6 180)
+		(shape output)
+		(at 308.61 250.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15082,7 +15124,7 @@
 		)
 		(uuid "6804eba7-271d-42e7-a11c-fb2d5352fe81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.2186 228.6 0)
+			(at 297.2186 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15370,8 +15412,8 @@
 		)
 	)
 	(global_label "eDP_L1+"
-		(shape input)
-		(at 308.61 231.14 180)
+		(shape output)
+		(at 308.61 247.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15381,7 +15423,7 @@
 		)
 		(uuid "7ebcbc1b-eb83-4e3c-8909-4f3d2df69c43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.2186 231.14 0)
+			(at 297.2186 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15393,7 +15435,7 @@
 	)
 	(global_label "eDP_HPD"
 		(shape input)
-		(at 308.61 251.46 180)
+		(at 308.61 222.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15403,7 +15445,7 @@
 		)
 		(uuid "7ecba8e9-7c7e-4401-a9a7-09eac22a5cc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.1581 251.46 0)
+			(at 297.1581 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15542,7 +15584,7 @@
 		)
 	)
 	(global_label "TCP1_TXRX1-"
-		(shape output)
+		(shape bidirectional)
 		(at 334.01 316.23 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15563,7 +15605,7 @@
 		)
 	)
 	(global_label "TCP0_TXRX1+"
-		(shape output)
+		(shape bidirectional)
 		(at 334.01 275.59 180)
 		(fields_autoplaced yes)
 		(effects
@@ -16029,7 +16071,7 @@
 		)
 	)
 	(global_label "TCP1_TXRX0-"
-		(shape output)
+		(shape bidirectional)
 		(at 334.01 326.39 180)
 		(fields_autoplaced yes)
 		(effects
@@ -16092,8 +16134,8 @@
 		)
 	)
 	(global_label "eDP_AUX+"
-		(shape input)
-		(at 308.61 243.84 180)
+		(shape output)
+		(at 308.61 232.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16103,7 +16145,7 @@
 		)
 		(uuid "c0441bad-72e3-4d2b-9a9e-c9741be8a7fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 295.8276 243.84 0)
+			(at 295.8276 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
