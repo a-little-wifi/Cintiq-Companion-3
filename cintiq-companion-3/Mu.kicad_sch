@@ -16884,7 +16884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 278.13 258.572 90)
 			(effects
 				(font
@@ -17150,7 +17150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 278.13 296.672 90)
 			(effects
 				(font
@@ -17658,7 +17658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module_LattePanda:LattePanda_Module_H8.0mm_Horizontal"
+		(property "Footprint" "A_my_stuff:ddr4sodimm"
 			(at 294.386 179.07 0)
 			(effects
 				(font
@@ -18532,7 +18532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:MountingHole_3mm_M2_Pad_TopOnly"
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopOnly"
 			(at 515.62 311.15 0)
 			(effects
 				(font
@@ -18623,7 +18623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 412.75 57.658 90)
 			(effects
 				(font
@@ -18994,7 +18994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 438.15 269.748 90)
 			(effects
 				(font
@@ -19298,7 +19298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 436.88 267.97 0)
 			(effects
 				(font
@@ -19458,7 +19458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:MountingHole_3mm_M2_Pad_TopOnly"
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_TopOnly"
 			(at 490.22 311.15 0)
 			(effects
 				(font
@@ -19550,7 +19550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 292.1 74.93 0)
 			(effects
 				(font

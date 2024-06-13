@@ -9,7 +9,7 @@
 		(company "WifiCable")
 	)
 	(lib_symbols)
-	(text "is this supposed to be a block diagram?"
+	(text "is this supposed to be a block diagram?\n\nmake sure you have the schematic hierarchy view open for the best experience"
 		(exclude_from_sim no)
 		(at 149.86 133.35 0)
 		(effects
