@@ -72,6 +72,44 @@
 		)
 	)
 	(sheet
+		(at 212.09 74.93)
+		(size 33.02 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "96b88b3f-2d2c-4d3e-bc38-701809cf5f6f")
+		(property "Sheetname" "HSIO"
+			(at 212.09 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HSIO.kicad_sch"
+			(at 212.09 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 90.17 71.12)
 		(size 36.83 33.02)
 		(fields_autoplaced yes)
