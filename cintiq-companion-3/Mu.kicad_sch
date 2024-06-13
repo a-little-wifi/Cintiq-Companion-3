@@ -14057,6 +14057,17 @@
 		)
 		(uuid "075195d7-cfd6-40b5-b3f4-079c6838a9f4")
 	)
+	(text "excluded from board"
+		(exclude_from_sim no)
+		(at 287.02 304.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right top)
+		)
+		(uuid "0b5f1b65-0b4b-4629-8c4f-7aeec30e3e6b")
+	)
 	(text "Sleeping State Signal\n\n- SLS_S0: \n  - S0 (Working): HIGH\n  - S3 (Slpeeping): LOW\n  - S4 (Hibernation): LOW\n  - S5 (Soft Off): LOW\n- SLS_S3:\n  - S0 (Working): HIGH\n  - S3 (Slpeeping): HIGH\n  - S4 (Hibernation): LOW\n  - S5 (Soft Off): LOW"
 		(exclude_from_sim no)
 		(at 241.3 62.23 0)
@@ -14164,6 +14175,17 @@
 			(justify left)
 		)
 		(uuid "8c04383a-23b6-465d-9661-e3d3d122f9c9")
+	)
+	(text "excluded from board"
+		(exclude_from_sim no)
+		(at 287.02 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right top)
+		)
+		(uuid "bd53a4c5-ab7f-4e9a-9cca-a8fe8569d24b")
 	)
 	(text "All I2C have integrated pull-up resistors.\nno need to add pull-up resistors"
 		(exclude_from_sim no)
@@ -17042,8 +17064,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "1274faca-b02d-4807-bddb-91cedab91c5e")
 		(property "Reference" "R4"
 			(at 277.368 264.922 90)
@@ -17308,8 +17330,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "3b6ce76d-795a-437f-b4a7-9c2a3567263a")
 		(property "Reference" "R5"
 			(at 277.368 303.022 90)

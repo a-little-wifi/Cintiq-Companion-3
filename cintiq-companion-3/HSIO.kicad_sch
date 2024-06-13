@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "cb9007ce-e327-459b-bbe2-76d837cb00c6")
+	(uuid "2ecdd895-36dc-43f1-b192-6d3121666a0e")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Bus_M.2_Socket_E"
