@@ -6710,6 +6710,16 @@
 		)
 		(uuid "032bea23-9a71-48ae-9bb7-b43b3f6fe605")
 	)
+	(polyline
+		(pts
+			(xy 462.28 93.98) (xy 462.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0367a99d-95a1-457e-90cc-d5d2c1fabda7")
+	)
 	(wire
 		(pts
 			(xy 334.01 217.17) (xy 346.71 217.17)
@@ -6770,6 +6780,16 @@
 		)
 		(uuid "07f4ef8c-3003-4b1c-9e63-49a0b524bbf9")
 	)
+	(polyline
+		(pts
+			(xy 462.28 100.33) (xy 463.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a304ea4-b1b6-40c9-8f50-bd2c5f8b9492")
+	)
 	(wire
 		(pts
 			(xy 387.35 336.55) (xy 387.35 341.63)
@@ -6779,6 +6799,16 @@
 			(type default)
 		)
 		(uuid "0b35c54f-b001-42b3-b4b1-2840c48f7576")
+	)
+	(polyline
+		(pts
+			(xy 311.15 133.35) (xy 311.15 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bea7998-c8cb-40af-8dc9-8854f06a122e")
 	)
 	(wire
 		(pts
@@ -7060,6 +7090,16 @@
 		)
 		(uuid "3da50b2e-8d70-4ede-9361-e589d6eeac11")
 	)
+	(polyline
+		(pts
+			(xy 313.69 176.53) (xy 311.15 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee681ad-3b0d-4828-b176-ccdcd21393ff")
+	)
 	(wire
 		(pts
 			(xy 281.94 298.45) (xy 290.83 298.45)
@@ -7079,6 +7119,16 @@
 			(type default)
 		)
 		(uuid "42407a1a-6ffc-4f23-b725-4f81a6a3c4a4")
+	)
+	(polyline
+		(pts
+			(xy 313.69 133.35) (xy 311.15 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426ab07a-6cda-45c3-ad90-d7217912f2b2")
 	)
 	(wire
 		(pts
@@ -7330,6 +7380,16 @@
 		)
 		(uuid "696d2358-4fac-4ca6-99f4-ac4ca73a176c")
 	)
+	(polyline
+		(pts
+			(xy 311.15 180.34) (xy 309.88 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6abdf60f-9d52-4aa6-a6f3-0380e44d8d81")
+	)
 	(wire
 		(pts
 			(xy 427.99 158.75) (xy 445.77 158.75)
@@ -7440,6 +7500,16 @@
 		)
 		(uuid "7a1e1956-ab27-4102-a853-10f370677cb3")
 	)
+	(polyline
+		(pts
+			(xy 462.28 95.25) (xy 463.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3771ed-64b0-49b5-bdaf-ac5a1b3d3406")
+	)
 	(wire
 		(pts
 			(xy 346.71 270.51) (xy 334.01 270.51)
@@ -7449,6 +7519,16 @@
 			(type default)
 		)
 		(uuid "7f2ded4f-6b49-4fbf-aa5a-1d5f362a88ca")
+	)
+	(polyline
+		(pts
+			(xy 459.74 93.98) (xy 462.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c9293d-f578-4d4e-91be-733449af1dff")
 	)
 	(wire
 		(pts
@@ -7540,6 +7620,16 @@
 		)
 		(uuid "8e6b9321-40a1-4351-bc57-f48a5a967693")
 	)
+	(polyline
+		(pts
+			(xy 313.69 171.45) (xy 311.15 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f839a89-6222-462f-875b-28bb16f62e93")
+	)
 	(wire
 		(pts
 			(xy 334.01 151.13) (xy 346.71 151.13)
@@ -7610,6 +7700,16 @@
 		)
 		(uuid "999ebdbd-7923-4e86-9084-f9fba342e168")
 	)
+	(polyline
+		(pts
+			(xy 313.69 184.15) (xy 311.15 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ab0b1c-a943-49ec-82b4-b25a9c5fe3cb")
+	)
 	(wire
 		(pts
 			(xy 334.01 237.49) (xy 346.71 237.49)
@@ -7659,6 +7759,16 @@
 			(type default)
 		)
 		(uuid "a56e6a54-f75f-4ac5-ad37-de6c1157d9f0")
+	)
+	(polyline
+		(pts
+			(xy 459.74 101.6) (xy 462.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b78be4-20e9-4449-8295-89c4ba639965")
 	)
 	(wire
 		(pts
@@ -8010,6 +8120,26 @@
 		)
 		(uuid "dcbeed9d-cd1d-4c92-9997-2add1323d652")
 	)
+	(polyline
+		(pts
+			(xy 311.15 176.53) (xy 311.15 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2869ce-aa3f-497c-ae2c-e33b7b1dfce9")
+	)
+	(polyline
+		(pts
+			(xy 462.28 99.06) (xy 462.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de5f5ae7-6776-444d-ba38-5e3e207759e7")
+	)
 	(wire
 		(pts
 			(xy 334.01 189.23) (xy 346.71 189.23)
@@ -8080,6 +8210,16 @@
 		)
 		(uuid "e75b3d0b-0e10-42f5-b7c0-bbd4a2dd40dc")
 	)
+	(polyline
+		(pts
+			(xy 459.74 99.06) (xy 462.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e937fa10-fef1-431f-be62-1a256930b771")
+	)
 	(wire
 		(pts
 			(xy 334.01 120.65) (xy 346.71 120.65)
@@ -8099,6 +8239,16 @@
 			(type default)
 		)
 		(uuid "f2fa17f7-c384-4799-998b-6bf497797865")
+	)
+	(polyline
+		(pts
+			(xy 459.74 96.52) (xy 462.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3091699-cc5a-44e0-96a5-e5f3e684bd48")
 	)
 	(wire
 		(pts
@@ -8149,6 +8299,16 @@
 			(type default)
 		)
 		(uuid "f9209e0a-c937-46c7-8de1-18e46ec88350")
+	)
+	(polyline
+		(pts
+			(xy 311.15 151.13) (xy 309.88 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c906af-aab0-4308-9474-c4cc400ee202")
 	)
 	(wire
 		(pts
@@ -13704,7 +13864,7 @@
 			"dUQx3GDkVVcAAAAASUVORK5CYII="
 		)
 	)
-	(text_box "DDI B used for HDMI"
+	(text_box "DDI B used for eDP"
 		(exclude_from_sim no)
 		(at 251.46 231.14 0)
 		(size 39.37 10.16)
@@ -13720,6 +13880,7 @@
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
+				(color 255 121 154 1)
 			)
 			(justify left top)
 		)
@@ -13769,7 +13930,7 @@
 	)
 	(text_box "USB2 P3/P4 used for USB2.0 \n"
 		(exclude_from_sim no)
-		(at 251.46 195.58 0)
+		(at 265.43 203.2 0)
 		(size 39.37 10.16)
 		(stroke
 			(width 0)
@@ -13788,10 +13949,10 @@
 		)
 		(uuid "8b1718a7-7307-4c02-9dcc-b4ebbdcde49c")
 	)
-	(text_box "HSIO_8/9/10/11 used for PCIe x4\n\n"
+	(text_box "HSIO 11/10/9/8 used for M-key m.2\nwith lane reversal + polarity inversion"
 		(exclude_from_sim no)
-		(at 251.46 148.59 0)
-		(size 39.37 11.43)
+		(at 265.43 138.43 0)
+		(size 39.37 26.67)
 		(stroke
 			(width 0)
 			(type default)
@@ -13804,14 +13965,15 @@
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
+				(color 255 121 154 1)
 			)
 			(justify left top)
 		)
 		(uuid "a7bbeaf5-32c1-447c-9ffe-26b412e896be")
 	)
-	(text_box "HSIO_6 used for GbE(PCIe x1)\n"
+	(text_box "HSIO 6 used for E-key m.2"
 		(exclude_from_sim no)
-		(at 251.46 175.26 0)
+		(at 265.43 175.26 0)
 		(size 39.37 10.16)
 		(stroke
 			(width 0)
@@ -13825,6 +13987,7 @@
 				(size 2.54 2.54)
 				(thickness 0.508)
 				(bold yes)
+				(color 255 121 154 1)
 			)
 			(justify left top)
 		)
@@ -13832,7 +13995,7 @@
 	)
 	(text_box "USB2 P1/P2 used for USB3.0\n"
 		(exclude_from_sim no)
-		(at 251.46 185.42 0)
+		(at 265.43 193.04 0)
 		(size 39.37 10.16)
 		(stroke
 			(width 0)
@@ -13931,20 +14094,6 @@
 		)
 		(uuid "470dfc16-8cc1-4f75-82d4-c7c41afba02f")
 	)
-	(text "no actually eDP\n"
-		(exclude_from_sim no)
-		(at 264.16 237.49 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 255 121 154 1)
-			)
-			(justify left top)
-		)
-		(uuid "51176507-4e15-41cc-8a76-020f518e4c1d")
-	)
 	(text "HPD pin of unused DDI/TCP port\nneeds to be pulled down"
 		(exclude_from_sim no)
 		(at 261.62 260.35 0)
@@ -14027,6 +14176,20 @@
 		)
 		(uuid "c1b8aac5-913c-41ba-b4fe-d85e77176c77")
 	)
+	(text "E-key"
+		(exclude_from_sim no)
+		(at 463.55 100.33 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 121 154 1)
+			)
+			(justify left)
+		)
+		(uuid "cdf8b28f-da66-4f88-a584-ff3f47aa8e66")
+	)
 	(text "I got the flash image tool,\nso I should be able to change\nit to whatever I need :3"
 		(exclude_from_sim no)
 		(at 128.27 107.95 0)
@@ -14040,6 +14203,20 @@
 			(justify left top)
 		)
 		(uuid "f5b42ae2-d330-4a67-b5b8-2fba464a1387")
+	)
+	(text "M-key\n"
+		(exclude_from_sim no)
+		(at 463.55 95.25 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 121 154 1)
+			)
+			(justify left)
+		)
+		(uuid "ffe83672-c110-403d-9959-073a322a476e")
 	)
 	(global_label "DDI_B_TX3+"
 		(shape output)
