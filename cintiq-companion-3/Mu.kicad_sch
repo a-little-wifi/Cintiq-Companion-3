@@ -17658,7 +17658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_my_stuff:ddr4sodimm"
+		(property "Footprint" "A_my_stuff:LattepandaMuFlat"
 			(at 294.386 179.07 0)
 			(effects
 				(font
