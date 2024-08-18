@@ -2716,6 +2716,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(wire
 		(pts
@@ -2839,6 +2960,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 118.11) (xy 259.08 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bdc3277-0443-4b83-9fad-84a1acdd44ec")
+	)
+	(wire
+		(pts
 			(xy 185.42 57.15) (xy 205.74 57.15)
 		)
 		(stroke
@@ -2856,6 +2987,16 @@
 			(type default)
 		)
 		(uuid "78ddc083-3e3b-4ca9-8e9c-72a5b2c37c4c")
+	)
+	(wire
+		(pts
+			(xy 134.62 118.11) (xy 137.16 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb51481-79ff-4dd4-be1e-c6d55f0589a6")
 	)
 	(wire
 		(pts
@@ -2949,6 +3090,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 118.11) (xy 269.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1d5949-f6b4-492e-9881-801817c75047")
+	)
+	(wire
+		(pts
 			(xy 63.5 59.69) (xy 83.82 59.69)
 		)
 		(stroke
@@ -2956,6 +3107,16 @@
 			(type default)
 		)
 		(uuid "c9f44cb7-d57b-4608-891f-163d7a43202f")
+	)
+	(wire
+		(pts
+			(xy 144.78 118.11) (xy 147.32 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf51a5e1-43d7-42a7-8231-e9fb00a3a92b")
 	)
 	(wire
 		(pts
@@ -3582,6 +3743,27 @@
 			)
 		)
 	)
+	(global_label "SUSCLK_WIFI"
+		(shape input)
+		(at 147.32 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a43c92ce-47d9-45e2-95e1-2d36a0efe7cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HSIO9_RX+"
 		(shape output)
 		(at 53.34 85.09 180)
@@ -3691,6 +3873,27 @@
 			)
 		)
 	)
+	(global_label "SUSCLK_WIFI"
+		(shape input)
+		(at 269.24 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eae47a00-94ed-436c-8aa2-9b0ac0f57969")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HSIO6_RX-"
 		(shape output)
 		(at 175.26 64.77 180)
@@ -3736,6 +3939,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 140.97 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00b0abe8-5d11-4f92-8377-bdd7439a26e4")
+		(property "Reference" "R11"
+			(at 147.32 119.38 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 137.922 119.38 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+			(at 140.97 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCH_Show_Footprint" ""
+			(at 140.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 140.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 140.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 140.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c935f1d2-fd49-429d-bf6c-1993744e6ece")
+		)
+		(pin "2"
+			(uuid "ad2804a8-282c-4ccb-b24c-975049c61c2a")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 182.88 57.15 90)
 		(unit 1)
@@ -3748,7 +4056,7 @@
 			(at 180.34 55.88 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -3756,7 +4064,7 @@
 			(at 186.69 55.88 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -3803,6 +4111,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 262.89 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0518c617-7195-4470-b28f-bb7f77c32d09")
+		(property "Reference" "R10"
+			(at 269.24 119.38 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 259.842 119.38 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+			(at 262.89 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCH_Show_Footprint" ""
+			(at 262.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 262.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 262.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 262.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51ad5f1c-e12e-45d6-82de-4d471d07f26a")
+		)
+		(pin "2"
+			(uuid "f66c315b-39cf-48cf-9fe9-a4278b4f0117")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 60.96 57.15 90)
 		(unit 1)
@@ -3815,7 +4228,7 @@
 			(at 58.42 55.88 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -3823,7 +4236,7 @@
 			(at 64.77 55.88 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -3883,7 +4296,7 @@
 			(at 111.4141 39.37 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -3892,7 +4305,7 @@
 			(at 111.4141 41.91 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -4147,7 +4560,7 @@
 			(at 58.42 86.36 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4155,7 +4568,7 @@
 			(at 64.77 86.36 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4214,7 +4627,7 @@
 			(at 58.42 88.9 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4222,7 +4635,7 @@
 			(at 64.77 88.9 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4282,7 +4695,7 @@
 			(at 233.3341 39.37 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -4291,7 +4704,7 @@
 			(at 233.3341 41.91 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -4546,7 +4959,7 @@
 			(at 180.34 58.42 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4554,7 +4967,7 @@
 			(at 186.69 58.42 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4613,7 +5026,7 @@
 			(at 58.42 68.58 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4621,7 +5034,7 @@
 			(at 64.77 68.58 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4680,7 +5093,7 @@
 			(at 58.42 66.04 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4688,7 +5101,7 @@
 			(at 64.77 66.04 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4747,7 +5160,7 @@
 			(at 58.42 76.2 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4755,7 +5168,7 @@
 			(at 64.77 76.2 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4814,7 +5227,7 @@
 			(at 58.42 78.74 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4822,7 +5235,7 @@
 			(at 64.77 78.74 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4881,7 +5294,7 @@
 			(at 58.42 58.42 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4889,7 +5302,7 @@
 			(at 64.77 58.42 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
