@@ -4803,28 +4803,6 @@
 			)
 		)
 	)
-	(global_label "fingerpanel_USB_D+"
-		(shape input)
-		(at 110.49 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1fcdc0c9-5f83-4b03-b94e-d49747c123cb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.2131 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+3.3V_eDP"
 		(shape input)
 		(at 210.82 110.49 90)
@@ -5045,28 +5023,6 @@
 			)
 		)
 	)
-	(global_label "penpanel_USB_D+"
-		(shape input)
-		(at 110.49 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "64007816-e515-49f1-bb97-a427c1ece460")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.3298 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BL_return_3"
 		(shape input)
 		(at 223.52 149.86 270)
@@ -5102,50 +5058,6 @@
 		(uuid "7a7e5a33-a071-41d6-ae7f-adde9e942ae5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 22.2941 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "fingerpanel_USB_D-"
-		(shape input)
-		(at 110.49 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "83e1e4fb-2ce3-4dfd-aa25-b9a6861f0839")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.3298 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "penpanel_USB_D-"
-		(shape input)
-		(at 110.49 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85055cd4-8477-4e06-b48b-0f3c7d1d03ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.3298 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
