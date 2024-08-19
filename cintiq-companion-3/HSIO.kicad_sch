@@ -9,24 +9,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -22.86 46.99 0)
+			(property "Reference" "J4"
+				(at 2.1941 50.8 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 					(justify left)
 				)
 			)
 			(property "Value" "Bus_M.2_Socket_E"
-				(at 16.51 46.99 0)
+				(at 2.1941 48.26 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "A_my_stuff:e-key"
 				(at 0 26.67 0)
 				(effects
 					(font
@@ -1291,30 +1292,49 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at 3.81 -48.26 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
 		(symbol "Connector:Bus_M.2_Socket_M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -22.86 46.99 0)
+			(property "Reference" "J3"
+				(at 2.1941 50.8 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
 					(justify left)
 				)
 			)
 			(property "Value" "Bus_M.2_Socket_M"
-				(at 16.51 46.99 0)
+				(at 2.1941 48.26 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "A_my_stuff:m-key"
 				(at 0 26.67 0)
 				(effects
 					(font
@@ -2579,6 +2599,24 @@
 						)
 					)
 				)
+				(pin output line
+					(at 3.81 -48.26 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
 		(symbol "Device:C_Small"
@@ -2934,6 +2972,18 @@
 			)
 		)
 	)
+	(junction
+		(at 109.22 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "273616bf-8346-4f29-b059-8b393de39faa")
+	)
+	(junction
+		(at 231.14 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e99850ba-05bb-4715-aaa2-0fe58c2383ec")
+	)
 	(wire
 		(pts
 			(xy 53.34 95.25) (xy 83.82 95.25)
@@ -2943,6 +2993,16 @@
 			(type default)
 		)
 		(uuid "05f6ef0e-3842-42a6-8049-0ac8ad64c2ac")
+	)
+	(wire
+		(pts
+			(xy 231.14 139.7) (xy 234.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1004c9-52da-4ed1-818c-a7f0f7ce2f74")
 	)
 	(wire
 		(pts
@@ -2976,7 +3036,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 138.43) (xy 231.14 140.97)
+			(xy 231.14 138.43) (xy 231.14 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3013,6 +3073,16 @@
 			(type default)
 		)
 		(uuid "3f29a91e-460b-4a2f-8d33-a0eeff8f04a2")
+	)
+	(wire
+		(pts
+			(xy 113.03 138.43) (xy 113.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471dd801-db88-4ea9-b38c-be3baf006c12")
 	)
 	(wire
 		(pts
@@ -3053,6 +3123,16 @@
 			(type default)
 		)
 		(uuid "5fb5b30b-8316-4c48-9a61-bacc6c2c993f")
+	)
+	(wire
+		(pts
+			(xy 231.14 139.7) (xy 231.14 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e08960-f4e9-4b40-b233-d0c9b79d9ff5")
 	)
 	(wire
 		(pts
@@ -3136,7 +3216,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 138.43) (xy 109.22 140.97)
+			(xy 109.22 139.7) (xy 109.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8586c108-a678-43ba-843a-8ddbdcf1ffcf")
+	)
+	(wire
+		(pts
+			(xy 109.22 138.43) (xy 109.22 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3253,6 +3343,16 @@
 			(type default)
 		)
 		(uuid "bf1d5949-f6b4-492e-9881-801817c75047")
+	)
+	(wire
+		(pts
+			(xy 109.22 139.7) (xy 113.03 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3537509-049d-4030-9535-bcb1613a234f")
 	)
 	(wire
 		(pts
@@ -3373,6 +3473,16 @@
 			(type default)
 		)
 		(uuid "f2ec0f1a-87ab-411d-a2f0-b681303ce246")
+	)
+	(wire
+		(pts
+			(xy 234.95 138.43) (xy 234.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feed7779-0fee-44b8-8ffc-73d68eca25a8")
 	)
 	(text_box "E-key:\nrefclk polarity inversion"
 		(exclude_from_sim no)
@@ -3792,7 +3902,7 @@
 	)
 	(global_label "Wifi_REFCLK+"
 		(shape input)
-		(at 190.5 128.27 180)
+		(at 190.5 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3802,7 +3912,7 @@
 		)
 		(uuid "648a69e3-51c0-443f-86f7-588193c64681")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.5124 128.27 0)
+			(at 174.5124 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +4032,7 @@
 			)
 		)
 	)
-	(global_label "SUSCLK_WIFI"
+	(global_label "SUSCLK"
 		(shape input)
 		(at 147.32 118.11 0)
 		(fields_autoplaced yes)
@@ -3934,11 +4044,12 @@
 		)
 		(uuid "a43c92ce-47d9-45e2-95e1-2d36a0efe7cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 118.11 0)
+			(at 157.6228 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4121,7 +4232,7 @@
 	)
 	(global_label "Wifi_REFCLK-"
 		(shape input)
-		(at 190.5 125.73 180)
+		(at 190.5 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4131,7 +4242,7 @@
 		)
 		(uuid "e6b692e4-a376-4596-bc57-6a105e04b6f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.5124 125.73 0)
+			(at 174.5124 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4252,7 @@
 			)
 		)
 	)
-	(global_label "SUSCLK_WIFI"
+	(global_label "SUSCLK"
 		(shape input)
 		(at 269.24 118.11 0)
 		(fields_autoplaced yes)
@@ -4153,11 +4264,12 @@
 		)
 		(uuid "eae47a00-94ed-436c-8aa2-9b0ac0f57969")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 118.11 0)
+			(at 279.5428 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4211,7 +4323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 140.97 119.888 90)
 			(effects
 				(font
@@ -4383,7 +4495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HDJ_Library:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 262.89 119.888 90)
 			(effects
 				(font
@@ -4784,6 +4896,9 @@
 		(pin "75"
 			(uuid "01aedf12-1b18-408c-9502-684d2ea15c73")
 		)
+		(pin "MP"
+			(uuid "f2528d81-c0f9-4a06-8dd0-e0814b90d251")
+		)
 		(instances
 			(project "cintiq-companion-3"
 				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
@@ -5182,6 +5297,9 @@
 		)
 		(pin "8"
 			(uuid "aa7a2b14-9a30-42a3-b065-cc73eed77354")
+		)
+		(pin "MP"
+			(uuid "4af73beb-43db-4e5b-ad5b-f2af34c9c360")
 		)
 		(instances
 			(project "cintiq-companion-3"

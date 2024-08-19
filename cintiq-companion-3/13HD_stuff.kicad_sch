@@ -4892,7 +4892,7 @@
 		)
 	)
 	(global_label "penpanel_USB_D+"
-		(shape input)
+		(shape bidirectional)
 		(at 102.87 38.1 270)
 		(fields_autoplaced yes)
 		(effects
@@ -4936,7 +4936,7 @@
 		)
 	)
 	(global_label "fingerpanel_USB_D+"
-		(shape input)
+		(shape bidirectional)
 		(at 54.61 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5134,7 +5134,7 @@
 		)
 	)
 	(global_label "penpanel_USB_D-"
-		(shape input)
+		(shape bidirectional)
 		(at 100.33 38.1 270)
 		(fields_autoplaced yes)
 		(effects
@@ -5288,7 +5288,7 @@
 		)
 	)
 	(global_label "fingerpanel_USB_D-"
-		(shape input)
+		(shape bidirectional)
 		(at 54.61 106.68 0)
 		(fields_autoplaced yes)
 		(effects
