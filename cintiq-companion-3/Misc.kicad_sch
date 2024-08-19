@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "0f099620-b9d4-47f1-b009-4d389fbafec5")
+	(uuid "bab63ddb-a121-4920-adec-a7576d8d44ca")
 	(paper "A4")
 	(lib_symbols
 		(symbol "SPI_flash_1"
@@ -747,7 +747,7 @@
 			(at 42.164 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -755,7 +755,7 @@
 			(at 57.15 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -898,7 +898,7 @@
 			(at 42.164 41.91 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -906,7 +906,7 @@
 			(at 57.15 41.91 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)

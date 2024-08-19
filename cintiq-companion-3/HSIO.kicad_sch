@@ -9796,7 +9796,7 @@
 			(at 111.4141 167.64 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -9805,7 +9805,7 @@
 			(at 111.4141 170.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -10061,7 +10061,7 @@
 			(at 229.87 189.8651 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -10070,7 +10070,7 @@
 			(at 229.87 187.3251 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)

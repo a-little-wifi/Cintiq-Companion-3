@@ -148,6 +148,44 @@
 		)
 	)
 	(sheet
+		(at 250.19 76.2)
+		(size 31.75 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f20248bf-082b-4a9c-b768-3d8285299371")
+		(property "Sheetname" "TypeC"
+			(at 250.19 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TypeC.kicad_sch"
+			(at 250.19 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 237.49 120.65)
 		(size 31.75 22.86)
 		(fields_autoplaced yes)
@@ -180,7 +218,7 @@
 		(instances
 			(project "cintiq-companion-3"
 				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
