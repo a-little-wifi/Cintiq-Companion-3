@@ -3907,6 +3907,520 @@
 				)
 			)
 		)
+		(symbol "Connector:USB3_A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -10.16 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB3_A"
+				(at 10.16 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB 3.0 A connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB3*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB3_A_0_0"
+				(rectangle
+					(start -9.144 8.636)
+					(end -5.08 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.874 7.366)
+					(end -6.604 -2.286)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -6.35 0)
+					(end -6.096 -0.762)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.35 1.778)
+					(end -6.096 1.016)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.35 3.556)
+					(end -6.096 2.794)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.35 5.334)
+					(end -6.096 4.572)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.794 -15.24)
+					(end -2.286 -14.224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.254 -15.24)
+					(end 0.254 -14.224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -9.906)
+					(end 9.144 -10.414)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 5.334)
+					(end 9.144 4.826)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB3_A_0_1"
+				(rectangle
+					(start -10.16 13.97)
+					(end 10.16 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "USB3_A_1_1"
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin power_in line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -17.78 90)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "SSRX-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "SSRX+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -17.78 90)
+					(length 2.54)
+					(name "DRAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "SSTX-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(name "SSTX+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -4273,6 +4787,12 @@
 		(uuid "3f774578-abf6-490f-ac85-81a5bc9ce21e")
 	)
 	(junction
+		(at 220.98 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "684b1150-d678-423e-995a-a93c2e51cf8b")
+	)
+	(junction
 		(at 231.14 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4320,6 +4840,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 198.12) (xy 180.34 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fa42ee-0b99-4f1e-bc93-28940086a802")
+	)
+	(wire
+		(pts
+			(xy 175.26 97.79) (xy 205.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1865b7c3-07a5-4018-ab5e-a3cfb0df5f8f")
+	)
+	(wire
+		(pts
 			(xy 231.14 139.7) (xy 234.95 139.7)
 		)
 		(stroke
@@ -4327,6 +4867,16 @@
 			(type default)
 		)
 		(uuid "1a1004c9-52da-4ed1-818c-a7f0f7ce2f74")
+	)
+	(wire
+		(pts
+			(xy 218.44 205.74) (xy 218.44 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bdb5223-55f1-4414-a034-8e3e96f6a517")
 	)
 	(wire
 		(pts
@@ -4350,6 +4900,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 72.39) (xy 205.74 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e17d13-5036-4f3b-be23-957d0cac2a30")
+	)
+	(wire
+		(pts
 			(xy 53.34 72.39) (xy 83.82 72.39)
 		)
 		(stroke
@@ -4370,6 +4930,36 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 207.01) (xy 220.98 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281c3b87-3bf0-4745-a9d0-7508b6c7d458")
+	)
+	(wire
+		(pts
+			(xy 185.42 200.66) (xy 205.74 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28ae4393-8c9b-4299-9bcb-ac74425a51e9")
+	)
+	(wire
+		(pts
+			(xy 223.52 205.74) (xy 223.52 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aff990d-0d47-4867-9a16-f4f4f3ef5acd")
+	)
+	(wire
+		(pts
 			(xy 109.22 267.97) (xy 109.22 269.24)
 		)
 		(stroke
@@ -4387,6 +4977,16 @@
 			(type default)
 		)
 		(uuid "2ea99c3f-3a41-4a77-9e9d-980a01669295")
+	)
+	(wire
+		(pts
+			(xy 175.26 92.71) (xy 205.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3587d1d8-4190-42d6-b4a1-4901b3684d1f")
 	)
 	(wire
 		(pts
@@ -4420,6 +5020,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 130.81) (xy 205.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd3f502-f654-41ac-87b3-2c9a7263471d")
+	)
+	(wire
+		(pts
 			(xy 63.5 80.01) (xy 83.82 80.01)
 		)
 		(stroke
@@ -4427,6 +5037,16 @@
 			(type default)
 		)
 		(uuid "3f29a91e-460b-4a2f-8d33-a0eeff8f04a2")
+	)
+	(wire
+		(pts
+			(xy 175.26 182.88) (xy 205.74 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45133a28-6e8b-4483-9263-032ddb283fdf")
 	)
 	(wire
 		(pts
@@ -4457,6 +5077,16 @@
 			(type default)
 		)
 		(uuid "4c829a5c-586a-40ac-8057-272ef8067e33")
+	)
+	(wire
+		(pts
+			(xy 220.98 207.01) (xy 220.98 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb18a38-cb49-4816-8c37-07f3bebcea86")
 	)
 	(wire
 		(pts
@@ -4500,6 +5130,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 207.01) (xy 223.52 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "529bada8-cc89-4a48-b21e-451cf10ca985")
+	)
+	(wire
+		(pts
 			(xy 53.34 185.42) (xy 58.42 185.42)
 		)
 		(stroke
@@ -4507,6 +5147,16 @@
 			(type default)
 		)
 		(uuid "53b1a576-115e-418b-a105-d9ac6fd1b9fe")
+	)
+	(wire
+		(pts
+			(xy 185.42 67.31) (xy 205.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578a0a49-a241-43dd-8057-abd92b65eccf")
 	)
 	(wire
 		(pts
@@ -4527,6 +5177,16 @@
 			(type default)
 		)
 		(uuid "61e08960-f4e9-4b40-b233-d0c9b79d9ff5")
+	)
+	(wire
+		(pts
+			(xy 175.26 95.25) (xy 205.74 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63acb085-dff6-4e94-8b86-0d33a7a4ba3a")
 	)
 	(wire
 		(pts
@@ -4650,6 +5310,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 200.66) (xy 180.34 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d298885-0982-431f-a71d-4b7d7b98dca9")
+	)
+	(wire
+		(pts
 			(xy 134.62 118.11) (xy 137.16 118.11)
 		)
 		(stroke
@@ -4680,6 +5350,36 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 69.85) (xy 175.26 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8679cbf1-373f-42a8-8282-23b974e8e03a")
+	)
+	(wire
+		(pts
+			(xy 205.74 74.93) (xy 175.26 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8926a855-ac74-4bdc-9c0e-94bbbab4aefc")
+	)
+	(wire
+		(pts
+			(xy 190.5 133.35) (xy 205.74 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c36e4ee-32ee-4e9d-808c-b345361b77ce")
+	)
+	(wire
+		(pts
 			(xy 109.22 138.43) (xy 109.22 139.7)
 		)
 		(stroke
@@ -4687,6 +5387,16 @@
 			(type default)
 		)
 		(uuid "8e9e7941-09b1-4a76-887c-3bb773e3f733")
+	)
+	(wire
+		(pts
+			(xy 220.98 205.74) (xy 220.98 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9017f10a-f9aa-45db-82f4-d385d70483d2")
 	)
 	(wire
 		(pts
@@ -4760,6 +5470,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 193.04) (xy 205.74 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a24bf1f3-7196-43bf-8260-22fa65830687")
+	)
+	(wire
+		(pts
 			(xy 53.34 69.85) (xy 58.42 69.85)
 		)
 		(stroke
@@ -4787,6 +5507,16 @@
 			(type default)
 		)
 		(uuid "a85d4b15-85ce-4e3b-958b-27afeb15d0f8")
+	)
+	(wire
+		(pts
+			(xy 175.26 190.5) (xy 205.74 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26de9c9-63f9-43c3-8fde-2a20668282d8")
 	)
 	(wire
 		(pts
@@ -4840,6 +5570,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 69.85) (xy 185.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1211521-6150-4f9f-b266-97efde2d4621")
+	)
+	(wire
+		(pts
 			(xy 109.22 139.7) (xy 113.03 139.7)
 		)
 		(stroke
@@ -4847,6 +5587,16 @@
 			(type default)
 		)
 		(uuid "c3537509-049d-4030-9535-bcb1613a234f")
+	)
+	(wire
+		(pts
+			(xy 175.26 67.31) (xy 180.34 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d40ef7-159d-43ee-ab6d-d57044a4c207")
 	)
 	(wire
 		(pts
@@ -4880,6 +5630,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 198.12) (xy 205.74 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1103478-9cfb-4397-805d-0c06e5949c30")
+	)
+	(wire
+		(pts
 			(xy 53.34 200.66) (xy 83.82 200.66)
 		)
 		(stroke
@@ -4887,6 +5647,16 @@
 			(type default)
 		)
 		(uuid "d6dbe5d1-225f-4bba-9bd5-47d7445aacf6")
+	)
+	(wire
+		(pts
+			(xy 175.26 185.42) (xy 205.74 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da01986b-c1c6-43b6-b754-1fdd226296ca")
 	)
 	(wire
 		(pts
@@ -5050,8 +5820,8 @@
 	)
 	(text_box "B-key:\nPCIe x2 + USB3"
 		(exclude_from_sim no)
-		(at 17.78 149.86 0)
-		(size 38.1 15.24)
+		(at 17.78 160.02 0)
+		(size 38.1 11.43)
 		(stroke
 			(width 0)
 			(type default)
@@ -5092,7 +5862,7 @@
 	)
 	(text_box "M-key:\nPCIe x4 + SATA\nLane reversal +\npolarity inversion"
 		(exclude_from_sim no)
-		(at 16.51 26.67 0)
+		(at 16.51 24.13 0)
 		(size 38.1 19.05)
 		(stroke
 			(width 0)
@@ -5111,7 +5881,7 @@
 		)
 		(uuid "ffb5306a-95b4-4344-9dce-4431a267a235")
 	)
-	(label "HSIO9_C_Tx+"
+	(label "SSD_C_Tx2+"
 		(at 68.58 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5122,8 +5892,8 @@
 		)
 		(uuid "18f35992-3914-4834-8ec2-5842d5150e27")
 	)
-	(label "HSIO6_C_Tx-"
-		(at 190.5 57.15 0)
+	(label "Wifi_C_Tx-"
+		(at 190.5 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5133,7 +5903,7 @@
 		)
 		(uuid "1faecb0f-5555-49d1-a900-7ec1a02b203d")
 	)
-	(label "HSIO8_C_Tx+"
+	(label "SSD_C_Tx3+"
 		(at 68.58 90.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5144,8 +5914,8 @@
 		)
 		(uuid "2621cfa1-bb87-41c3-a9aa-934cf44cf061")
 	)
-	(label "HSIO6_C_Tx+"
-		(at 190.5 59.69 0)
+	(label "Wifi_C_Tx+"
+		(at 190.5 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5155,7 +5925,18 @@
 		)
 		(uuid "37543de9-2bcc-4cd2-8776-3fdab8b9ec39")
 	)
-	(label "HSIO10_C_Tx-"
+	(label "BKey_C_Tx0-"
+		(at 68.58 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46f6ae50-cefe-4778-b744-62dacaf93a31")
+	)
+	(label "SSD_C_Tx1-"
 		(at 68.58 67.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5166,7 +5947,18 @@
 		)
 		(uuid "4c9ed78b-60a6-470a-8b94-53480bcdc0a6")
 	)
-	(label "HSIO8_C_Tx-"
+	(label "USB3_C_Tx+"
+		(at 190.5 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57e99f9b-c691-4c07-9c04-43982a46ddcf")
+	)
+	(label "SSD_C_Tx3-"
 		(at 68.58 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5177,7 +5969,7 @@
 		)
 		(uuid "5a5bb51a-eaa5-47c2-a836-823053ea2172")
 	)
-	(label "HSIO10_C_Tx+"
+	(label "SSD_C_Tx1+"
 		(at 68.58 69.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5188,7 +5980,73 @@
 		)
 		(uuid "661ce8ce-dbc4-43c5-a649-7802605e29b8")
 	)
-	(label "HSIO11_C_Tx-"
+	(label "WifiWifi_C_Tx-"
+		(at 190.5 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79ea52af-a415-4134-b1c0-d478d1b4a333")
+	)
+	(label "Bkey_C_Tx1-"
+		(at 68.58 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99634752-8517-4f4a-81ba-2f277547bc07")
+	)
+	(label "Bkey_C_Tx1+"
+		(at 68.58 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b706b43-19e3-4b4a-aa8b-8b350762f5fb")
+	)
+	(label "Bkey_C_Tx0+"
+		(at 68.58 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ba90daf-fb54-48f2-8f2d-0987b1e8a0de")
+	)
+	(label "USB3_C_Tx-"
+		(at 190.5 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4555435-2284-4610-bb0f-a8fce7c292ff")
+	)
+	(label "WifiWifi_C_Tx+"
+		(at 190.5 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b23e6942-c29a-4de0-8aea-60ffef507acc")
+	)
+	(label "SSD_C_Tx0-"
 		(at 68.58 57.15 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5199,7 +6057,7 @@
 		)
 		(uuid "bf2b28a0-3085-498d-84af-164d7c4cff17")
 	)
-	(label "HSIO9_C_Tx-"
+	(label "SSD_C_Tx2-"
 		(at 68.58 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5210,7 +6068,7 @@
 		)
 		(uuid "cf04785e-59a1-4989-b6ce-64c733c0c28a")
 	)
-	(label "HSIO11_C_Tx+"
+	(label "SSD_C_Tx0+"
 		(at 68.58 59.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5234,6 +6092,28 @@
 		(uuid "0a56a739-a2e0-47bc-84ad-62ab14e022f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.9206 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WifiWifi_REFCLK+"
+		(shape input)
+		(at 190.5 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10759a89-13ea-46ae-9e64-c0747c7179bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.1257 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,7 +6233,7 @@
 			)
 		)
 	)
-	(global_label "Wifi_USB_D-"
+	(global_label "BT_USB_D-"
 		(shape bidirectional)
 		(at 175.26 82.55 180)
 		(fields_autoplaced yes)
@@ -5365,7 +6245,29 @@
 		)
 		(uuid "20b0cde5-5430-4f4e-93fe-69a6fc9e68fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.1892 82.55 0)
+			(at 160.3383 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3_Tx-"
+		(shape input)
+		(at 175.26 198.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21cedd2d-4168-433b-b785-675ed2e2e310")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.7196 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,6 +6334,28 @@
 		(uuid "2d3af4a0-be8c-46ac-b5c1-e07682ed9d18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 51.6248 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{WifiWifi_CLKREQ}"
+		(shape output)
+		(at 175.26 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "305e434a-24ba-4a46-856b-d0ac2bcda2b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.2162 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,6 +6541,28 @@
 			)
 		)
 	)
+	(global_label "~{PLT_RST}"
+		(shape input)
+		(at 175.26 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e2023bc-752c-4c96-bf8f-54cb237ff961")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.5944 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SSD_Tx2-"
 		(shape input)
 		(at 53.34 80.01 180)
@@ -5652,6 +6598,72 @@
 		(uuid "59985986-4f21-47a4-9b69-8240257d333a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 40.2553 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WifiWifi_REFCLK-"
+		(shape input)
+		(at 190.5 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dcd3c94-999c-4dde-8edf-646f5e88b740")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.1257 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WifiWifi_Rx-"
+		(shape output)
+		(at 175.26 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e7fa92a-7cee-453c-b16a-3ca23ac7ed12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.6633 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3_Rx-"
+		(shape output)
+		(at 175.26 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e813556-560c-4a53-bd1b-143dd70d78cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.4172 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,6 +6761,28 @@
 			)
 		)
 	)
+	(global_label "WifiWifi_Rx+"
+		(shape output)
+		(at 175.26 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70d3e7db-bcdb-43c5-85e7-7bfe7bceecf8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.6633 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SSD_Rx0+"
 		(shape output)
 		(at 53.34 62.23 180)
@@ -5793,6 +6827,28 @@
 			)
 		)
 	)
+	(global_label "USB3_Rx+"
+		(shape output)
+		(at 175.26 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8435f639-2420-4b8f-9e99-99949e214b70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.4172 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SSD_REFCLK-"
 		(shape input)
 		(at 68.58 128.27 180)
@@ -5806,6 +6862,50 @@
 		(uuid "8ef0eb6c-a891-47db-8c33-9318dc2c35d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 52.2901 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3_D-"
+		(shape bidirectional)
+		(at 175.26 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "969c2303-9fac-40d1-99e7-a894622fc992")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.334 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WifiWifi_Tx+"
+		(shape input)
+		(at 175.26 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a4e4545-ece9-4cf4-98b7-7748a9dcb30b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.9657 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,6 +6972,28 @@
 		(uuid "9fce5f49-44f3-4208-a48f-b11aeb421de9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 36.3016 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WifiWifi_Tx-"
+		(shape input)
+		(at 175.26 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1b9a7f2-17db-46f1-9404-8cdf403eb41c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.9657 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +7157,7 @@
 			)
 		)
 	)
-	(global_label "Wifi_USB_D+"
+	(global_label "BT_USB_D+"
 		(shape bidirectional)
 		(at 175.26 80.01 180)
 		(fields_autoplaced yes)
@@ -6047,7 +7169,7 @@
 		)
 		(uuid "c81f1583-e5d8-4d59-b463-569178a1136b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.1892 80.01 0)
+			(at 160.3383 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,6 +7214,28 @@
 		(uuid "cedaa25f-d216-4dd8-af01-744a17926507")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3_D+"
+		(shape bidirectional)
+		(at 175.26 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8dc6f53-c7d1-43fa-9bde-c99f8e99d5c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.334 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,6 +7302,28 @@
 		(uuid "e6b692e4-a376-4596-bc57-6a105e04b6f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.5124 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3_Tx+"
+		(shape input)
+		(at 175.26 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7489bdf-bc82-4e7d-a655-c98bd983be8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.7196 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,6 +7434,28 @@
 		(uuid "f57bcb5e-cd00-4c4c-817e-01b1e46ac583")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.3524 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{PEWAKE}"
+		(shape input)
+		(at 175.26 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd597b32-7611-4682-8d70-6f4bcf436861")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.8968 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6549,6 +7737,140 @@
 			(project "cintiq-companion-3"
 				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 60.96 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05423df4-0b5c-40a1-9816-ecbbe0189e44")
+		(property "Reference" "C22"
+			(at 58.42 196.85 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0.22U"
+			(at 64.77 196.85 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 60.96 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 60.96 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4880f945-1760-4990-a22e-75e9a542ee25")
+		)
+		(pin "1"
+			(uuid "ade3dbc8-46b5-4dd8-83c3-15081bb1afd1")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 182.88 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d5e30a3-6e03-4e45-8c7b-2516e2f731b9")
+		(property "Reference" "C17"
+			(at 180.34 66.04 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0.22U"
+			(at 186.69 66.04 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2414eeab-f128-471e-b3ac-8b19fd6315bd")
+		)
+		(pin "1"
+			(uuid "a8e052bd-d79b-4fae-8bf7-82bdec8b3e26")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6989,73 +8311,6 @@
 			(project "cintiq-companion-3"
 				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 60.96 198.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2189ac3e-a9a7-4f74-97d8-e8d85f38e34e")
-		(property "Reference" "C20"
-			(at 58.42 196.85 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0.22U"
-			(at 64.77 196.85 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 60.96 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "805928f9-2984-46c7-b8ce-6331b2904a5b")
-		)
-		(pin "1"
-			(uuid "b7b74837-79db-4dc7-b167-06b4e3bc75bd")
-		)
-		(instances
-			(project "cintiq-companion-3"
-				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7595,6 +8850,73 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 182.88 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52be3029-04c2-44ed-88e4-5ff4b4f15c06")
+		(property "Reference" "C24"
+			(at 180.34 199.39 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 186.69 199.39 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.88 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 182.88 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b25aa86-3185-437e-8258-91f0c2a1df4e")
+		)
+		(pin "1"
+			(uuid "47aacbc7-29ff-4dc7-916d-1a444d010e5f")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 182.88 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7662,6 +8984,205 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 220.98 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75f243df-4586-4749-9516-157ff6f33c91")
+		(property "Reference" "#PWR024"
+			(at 220.98 214.63 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 212.09 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62dc1724-58d0-4f89-af5b-c6b5269a6f6d")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 60.96 195.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83060a2e-fc9e-4161-82ea-b043f574b89e")
+		(property "Reference" "C21"
+			(at 58.42 194.31 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0.22U"
+			(at 64.77 194.31 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 60.96 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 60.96 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b071021f-d7dc-4766-af76-f2924650bece")
+		)
+		(pin "1"
+			(uuid "b0225d87-3629-43e7-91c6-9a995bc1c192")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 60.96 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a2d4812-70a9-466e-ba33-c2405786732b")
+		(property "Reference" "C20"
+			(at 58.42 186.69 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0.22U"
+			(at 64.77 186.69 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 60.96 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 60.96 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28a26ba0-f468-461b-b9ab-5e150ec308a6")
+		)
+		(pin "1"
+			(uuid "c0374ef5-9aaf-40ff-8e22-cbcd5c41c212")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 231.14 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7720,6 +9241,140 @@
 			(project "cintiq-companion-3"
 				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 182.88 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b178f37-885e-4dc8-8b61-c0755fc08387")
+		(property "Reference" "C23"
+			(at 180.34 196.85 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 186.69 196.85 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.88 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 182.88 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f1b5a81-4fb7-42e6-be6f-dcf520025342")
+		)
+		(pin "1"
+			(uuid "281a728d-0439-4d89-a2a8-7a71028bb96a")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 182.88 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fb39b89-d1dd-48d3-bfcd-d346e1177cc1")
+		(property "Reference" "C18"
+			(at 180.34 68.58 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0.22U"
+			(at 186.69 68.58 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 182.88 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0392139-fc65-46b1-a75d-227f3ed56739")
+		)
+		(pin "1"
+			(uuid "e72e014b-8724-4019-9665-9de90c01f3cc")
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7928,140 +9583,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 60.96 185.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6e50c5a-f95d-47dd-ac9e-d0988cf34640")
-		(property "Reference" "C17"
-			(at 58.42 184.15 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0.22U"
-			(at 64.77 184.15 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 60.96 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f834d8cf-387f-4e9f-a021-406ada929d0f")
-		)
-		(pin "1"
-			(uuid "7811b1fe-148f-4dd7-9aef-44e2206b797d")
-		)
-		(instances
-			(project "cintiq-companion-3"
-				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 60.96 187.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8fd5803-72b7-443b-ae19-9b9f8ef8fb88")
-		(property "Reference" "C18"
-			(at 58.42 186.69 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0.22U"
-			(at 64.77 186.69 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 60.96 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4495d84d-7048-43bd-b57f-ccd2901ada83")
-		)
-		(pin "1"
-			(uuid "73f5e4fe-289e-49f9-96df-0dbb0c8ebcad")
-		)
-		(instances
-			(project "cintiq-companion-3"
-				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 60.96 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8129,15 +9650,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 60.96 195.58 90)
+		(at 60.96 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c0f30989-cbdf-41dc-a4e5-11cdfc32a2b9")
+		(uuid "cc9625b0-49b4-43fc-8d10-1d180e95f9f5")
 		(property "Reference" "C19"
-			(at 58.42 194.31 90)
+			(at 58.42 184.15 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8145,7 +9666,7 @@
 			)
 		)
 		(property "Value" "0.22U"
-			(at 64.77 194.31 90)
+			(at 64.77 184.15 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8153,7 +9674,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 60.96 195.58 0)
+			(at 60.96 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,7 +9683,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 195.58 0)
+			(at 60.96 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +9692,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 60.96 195.58 0)
+			(at 60.96 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8180,10 +9701,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a50fc7f1-009c-4b62-a1e4-b720a02c3d3d")
+			(uuid "54bfda07-4a81-41e8-83a9-e9a0c3b4e8ac")
 		)
 		(pin "1"
-			(uuid "effd5e38-2107-47a4-bc69-cc2b98d3adab")
+			(uuid "7acfcd1a-b695-4e88-b486-4722376ad3cc")
 		)
 		(instances
 			(project "cintiq-companion-3"
@@ -8521,6 +10042,100 @@
 			(project ""
 				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB3_A")
+		(at 218.44 187.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbd0d4bb-ef19-4f42-8ac3-cc605fcea745")
+		(property "Reference" "J6"
+			(at 229.87 189.8651 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB3_A"
+			(at 229.87 187.3251 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 3.0 A connector"
+			(at 218.44 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "74874be7-13e3-4148-aad7-58efe37dcb7b")
+		)
+		(pin "9"
+			(uuid "8b97eb92-a7b7-4338-a0bc-bce5b8fe7528")
+		)
+		(pin "2"
+			(uuid "df352afa-a199-43e0-87b3-d841563c1b50")
+		)
+		(pin "4"
+			(uuid "18a1dfc0-ee91-430a-925b-24936caa228b")
+		)
+		(pin "5"
+			(uuid "e20501e7-4330-452c-87cf-502af18353f8")
+		)
+		(pin "1"
+			(uuid "298cd7df-da4b-4808-8b33-2d92d652a214")
+		)
+		(pin "3"
+			(uuid "28979e2c-36ec-4fe1-8a04-6b2e86375950")
+		)
+		(pin "8"
+			(uuid "0f923763-cf95-473b-9631-ef4489487c1e")
+		)
+		(pin "10"
+			(uuid "73d7561e-ed6d-4e88-9bf8-d123a3d38a58")
+		)
+		(pin "6"
+			(uuid "319269e3-4370-418b-b60b-44ded181fd46")
+		)
+		(instances
+			(project ""
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
+					(reference "J6")
 					(unit 1)
 				)
 			)

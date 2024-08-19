@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "fc3a89df-e09e-4c3f-8759-9ea9e186d3d4")
+	(uuid "0f099620-b9d4-47f1-b009-4d389fbafec5")
 	(paper "A4")
 	(lib_symbols
 		(symbol "SPI_flash_1"
