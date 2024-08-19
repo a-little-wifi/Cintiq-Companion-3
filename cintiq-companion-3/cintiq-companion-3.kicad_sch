@@ -147,6 +147,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 237.49 120.65)
+		(size 31.75 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd9cdaad-51a8-4c74-badc-92eaf56caf40")
+		(property "Sheetname" "Misc"
+			(at 237.49 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Misc.kicad_sch"
+			(at 237.49 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cintiq-companion-3"
+				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
