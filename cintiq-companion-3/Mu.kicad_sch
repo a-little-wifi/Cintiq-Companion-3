@@ -13929,7 +13929,7 @@
 		)
 		(uuid "56ebbc9d-2b22-4add-b156-9f24e04a5b5f")
 	)
-	(text "rough HSIO plan:\n\nHSIO A:\nidk yet, many possibilities.\nCould add a B-key m.2 slot with PCIe and USB3\nShould probably have at least one Type-A USB3 port too\n0:  \n1:  \n2:  \n3:  \n\nHSIO B:\nPCIe 4x1, HSIO11 sata/pcie with gpio for M-key m.2 slot\n8:  SSD PCIe x4 Lane 3\n9:  SSD PCIe x4 Lane 2\n10: SSD PCIe x4 Lane 1 (/ SATA?)\n11: SSD PCIe x4 Lane 0 / SATA\n\nHSIO C:\nPCIe 1x1 for E-key m.2 slot for Wifi\n6:  Wifi PCIe x1 "
+	(text "rough HSIO plan:\n\nHSIO A:\nUSB3, 2nd E-key PCIe x1 link and B-key PCIe x2/USB3 link\n0:  USB 3.2 Type-A\n1:  Wifi PCIe x1 link 2\n2:  B-key x2 Lane 1/USB3.2\n3:  B-key x2 Lane 0\n\nHSIO B:\nPCIe 4x1, HSIO11 sata/pcie with gpio for M-key m.2 slot\n8:  SSD PCIe x4 Lane 3\n9:  SSD PCIe x4 Lane 2\n10: SSD PCIe x4 Lane 1 (/ SATA?)\n11: SSD PCIe x4 Lane 0 / SATA\n\nHSIO C:\nPCIe 1x1 for E-key m.2 slot for Wifi\n6:  Wifi PCIe x1 "
 		(exclude_from_sim no)
 		(at 127 123.19 0)
 		(effects
