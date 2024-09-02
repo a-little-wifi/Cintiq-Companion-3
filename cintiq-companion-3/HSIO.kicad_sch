@@ -4787,7 +4787,7 @@
 		(uuid "3f774578-abf6-490f-ac85-81a5bc9ce21e")
 	)
 	(junction
-		(at 220.98 207.01)
+		(at 220.98 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "684b1150-d678-423e-995a-a93c2e51cf8b")
@@ -4840,7 +4840,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 198.12) (xy 180.34 198.12)
+			(xy 175.26 196.85) (xy 180.34 196.85)
 		)
 		(stroke
 			(width 0)
@@ -4870,7 +4870,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 205.74) (xy 218.44 207.01)
+			(xy 218.44 204.47) (xy 218.44 205.74)
 		)
 		(stroke
 			(width 0)
@@ -4930,7 +4930,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 207.01) (xy 220.98 207.01)
+			(xy 218.44 205.74) (xy 220.98 205.74)
 		)
 		(stroke
 			(width 0)
@@ -4940,7 +4940,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 200.66) (xy 205.74 200.66)
+			(xy 185.42 199.39) (xy 205.74 199.39)
 		)
 		(stroke
 			(width 0)
@@ -4950,7 +4950,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 205.74) (xy 223.52 207.01)
+			(xy 223.52 204.47) (xy 223.52 205.74)
 		)
 		(stroke
 			(width 0)
@@ -5040,7 +5040,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 182.88) (xy 205.74 182.88)
+			(xy 175.26 181.61) (xy 205.74 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5080,7 +5080,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 207.01) (xy 220.98 208.28)
+			(xy 220.98 205.74) (xy 220.98 207.01)
 		)
 		(stroke
 			(width 0)
@@ -5130,7 +5130,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 207.01) (xy 223.52 207.01)
+			(xy 220.98 205.74) (xy 223.52 205.74)
 		)
 		(stroke
 			(width 0)
@@ -5310,7 +5310,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 200.66) (xy 180.34 200.66)
+			(xy 175.26 199.39) (xy 180.34 199.39)
 		)
 		(stroke
 			(width 0)
@@ -5390,7 +5390,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 205.74) (xy 220.98 207.01)
+			(xy 220.98 204.47) (xy 220.98 205.74)
 		)
 		(stroke
 			(width 0)
@@ -5470,7 +5470,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 193.04) (xy 205.74 193.04)
+			(xy 175.26 191.77) (xy 205.74 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5510,7 +5510,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 190.5) (xy 205.74 190.5)
+			(xy 175.26 189.23) (xy 205.74 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5630,7 +5630,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 198.12) (xy 205.74 198.12)
+			(xy 185.42 196.85) (xy 205.74 196.85)
 		)
 		(stroke
 			(width 0)
@@ -5650,7 +5650,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 185.42) (xy 205.74 185.42)
+			(xy 175.26 184.15) (xy 205.74 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5948,7 +5948,7 @@
 		(uuid "4c9ed78b-60a6-470a-8b94-53480bcdc0a6")
 	)
 	(label "USB3_C_Tx+"
-		(at 190.5 200.66 0)
+		(at 190.5 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6025,7 +6025,7 @@
 		(uuid "9ba90daf-fb54-48f2-8f2d-0987b1e8a0de")
 	)
 	(label "USB3_C_Tx-"
-		(at 190.5 198.12 0)
+		(at 190.5 196.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6257,7 +6257,7 @@
 	)
 	(global_label "USB3_Tx-"
 		(shape input)
-		(at 175.26 198.12 180)
+		(at 175.26 196.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6267,7 +6267,7 @@
 		)
 		(uuid "21cedd2d-4168-433b-b785-675ed2e2e310")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.7196 198.12 0)
+			(at 162.7196 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6653,7 +6653,7 @@
 	)
 	(global_label "USB3_Rx-"
 		(shape output)
-		(at 175.26 190.5 180)
+		(at 175.26 189.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6663,7 +6663,7 @@
 		)
 		(uuid "5e813556-560c-4a53-bd1b-143dd70d78cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.4172 190.5 0)
+			(at 162.4172 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +6829,7 @@
 	)
 	(global_label "USB3_Rx+"
 		(shape output)
-		(at 175.26 193.04 180)
+		(at 175.26 191.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6839,7 +6839,7 @@
 		)
 		(uuid "8435f639-2420-4b8f-9e99-99949e214b70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.4172 193.04 0)
+			(at 162.4172 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,7 +6873,7 @@
 	)
 	(global_label "USB3_D-"
 		(shape bidirectional)
-		(at 175.26 182.88 180)
+		(at 175.26 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6883,7 +6883,7 @@
 		)
 		(uuid "969c2303-9fac-40d1-99e7-a894622fc992")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.334 182.88 0)
+			(at 162.334 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +7225,7 @@
 	)
 	(global_label "USB3_D+"
 		(shape bidirectional)
-		(at 175.26 185.42 180)
+		(at 175.26 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7235,7 +7235,7 @@
 		)
 		(uuid "d8dc6f53-c7d1-43fa-9bde-c99f8e99d5c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.334 185.42 0)
+			(at 162.334 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7313,7 +7313,7 @@
 	)
 	(global_label "USB3_Tx+"
 		(shape input)
-		(at 175.26 200.66 180)
+		(at 175.26 199.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7323,7 +7323,7 @@
 		)
 		(uuid "e7489bdf-bc82-4e7d-a655-c98bd983be8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.7196 200.66 0)
+			(at 162.7196 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8850,7 +8850,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 182.88 200.66 90)
+		(at 182.88 199.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8858,7 +8858,7 @@
 		(dnp no)
 		(uuid "52be3029-04c2-44ed-88e4-5ff4b4f15c06")
 		(property "Reference" "C24"
-			(at 180.34 199.39 90)
+			(at 180.34 198.12 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8866,7 +8866,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 186.69 199.39 90)
+			(at 186.69 198.12 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8874,7 +8874,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 182.88 200.66 0)
+			(at 182.88 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8883,7 +8883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 200.66 0)
+			(at 182.88 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8892,7 +8892,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 182.88 200.66 0)
+			(at 182.88 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +8984,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 208.28 0)
+		(at 220.98 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8992,7 +8992,7 @@
 		(dnp no)
 		(uuid "75f243df-4586-4749-9516-157ff6f33c91")
 		(property "Reference" "#PWR024"
-			(at 220.98 214.63 0)
+			(at 220.98 213.36 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9001,7 +9001,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 212.09 0)
+			(at 220.98 210.82 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9009,7 +9009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 208.28 0)
+			(at 220.98 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9018,7 +9018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 208.28 0)
+			(at 220.98 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9027,7 +9027,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 208.28 0)
+			(at 220.98 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9248,7 +9248,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 182.88 198.12 90)
+		(at 182.88 196.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9256,7 +9256,7 @@
 		(dnp no)
 		(uuid "8b178f37-885e-4dc8-8b61-c0755fc08387")
 		(property "Reference" "C23"
-			(at 180.34 196.85 90)
+			(at 180.34 195.58 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9264,7 +9264,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 186.69 196.85 90)
+			(at 186.69 195.58 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9272,7 +9272,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 182.88 198.12 0)
+			(at 182.88 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,7 +9281,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 198.12 0)
+			(at 182.88 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9290,7 +9290,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 182.88 198.12 0)
+			(at 182.88 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10049,7 +10049,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB3_A")
-		(at 218.44 187.96 0)
+		(at 218.44 186.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10058,7 +10058,7 @@
 		(dnp no)
 		(uuid "fbd0d4bb-ef19-4f42-8ac3-cc605fcea745")
 		(property "Reference" "J6"
-			(at 229.87 189.8651 0)
+			(at 229.87 188.5951 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10067,7 +10067,7 @@
 			)
 		)
 		(property "Value" "USB3_A"
-			(at 229.87 187.3251 0)
+			(at 229.87 186.0551 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10076,7 +10076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 185.42 0)
+			(at 214.63 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10085,7 +10085,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 185.42 0)
+			(at 214.63 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,7 +10094,7 @@
 			)
 		)
 		(property "Description" "USB 3.0 A connector"
-			(at 218.44 187.96 0)
+			(at 218.44 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)

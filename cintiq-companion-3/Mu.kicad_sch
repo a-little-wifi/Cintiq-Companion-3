@@ -6620,7 +6620,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 298.45) (xy 346.71 298.45)
+			(xy 334.01 298.45) (xy 346.71 298.45)
 		)
 		(stroke
 			(width 0)
@@ -6750,7 +6750,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 318.77) (xy 346.71 318.77)
+			(xy 334.01 318.77) (xy 346.71 318.77)
 		)
 		(stroke
 			(width 0)
@@ -6810,7 +6810,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 304.8) (xy 346.71 304.8)
+			(xy 334.01 304.8) (xy 346.71 304.8)
 		)
 		(stroke
 			(width 0)
@@ -6830,7 +6830,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 331.47) (xy 346.71 331.47)
+			(xy 334.01 331.47) (xy 346.71 331.47)
 		)
 		(stroke
 			(width 0)
@@ -6890,7 +6890,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 321.31) (xy 346.71 321.31)
+			(xy 334.01 321.31) (xy 346.71 321.31)
 		)
 		(stroke
 			(width 0)
@@ -7080,7 +7080,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 308.61) (xy 346.71 308.61)
+			(xy 334.01 308.61) (xy 346.71 308.61)
 		)
 		(stroke
 			(width 0)
@@ -7240,7 +7240,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 302.26) (xy 346.71 302.26)
+			(xy 334.01 302.26) (xy 346.71 302.26)
 		)
 		(stroke
 			(width 0)
@@ -7260,7 +7260,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 313.69) (xy 346.71 313.69)
+			(xy 334.01 313.69) (xy 346.71 313.69)
 		)
 		(stroke
 			(width 0)
@@ -7270,7 +7270,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 311.15) (xy 346.71 311.15)
+			(xy 334.01 311.15) (xy 346.71 311.15)
 		)
 		(stroke
 			(width 0)
@@ -7420,7 +7420,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 326.39) (xy 346.71 326.39)
+			(xy 334.01 326.39) (xy 346.71 326.39)
 		)
 		(stroke
 			(width 0)
@@ -7540,6 +7540,16 @@
 	)
 	(wire
 		(pts
+			(xy 334.01 212.09) (xy 346.71 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93bcd5a1-5481-40f2-a679-d33f02d23736")
+	)
+	(wire
+		(pts
 			(xy 400.05 55.88) (xy 408.94 55.88)
 		)
 		(stroke
@@ -7570,7 +7580,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 316.23) (xy 346.71 316.23)
+			(xy 334.01 316.23) (xy 346.71 316.23)
 		)
 		(stroke
 			(width 0)
@@ -7617,6 +7627,16 @@
 			(type default)
 		)
 		(uuid "9f05edc6-b6de-45f9-8dc6-abf503508d9c")
+	)
+	(wire
+		(pts
+			(xy 334.01 209.55) (xy 346.71 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2eb1a61-8e3c-4c73-9bfd-ba2d641e8dd9")
 	)
 	(wire
 		(pts
@@ -7830,7 +7850,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 323.85) (xy 346.71 323.85)
+			(xy 334.01 323.85) (xy 346.71 323.85)
 		)
 		(stroke
 			(width 0)
@@ -7920,7 +7940,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 328.93) (xy 346.71 328.93)
+			(xy 334.01 328.93) (xy 346.71 328.93)
 		)
 		(stroke
 			(width 0)
@@ -14190,7 +14210,7 @@
 	)
 	(global_label "Bkey_Tx1+"
 		(shape output)
-		(at 334.01 120.65 180)
+		(at 334.01 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14200,7 +14220,7 @@
 		)
 		(uuid "0be8bd01-dd1b-4ea0-af10-17bc6bed87cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.9253 120.65 0)
+			(at 320.9253 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14277,7 +14297,7 @@
 	)
 	(global_label "TCP1_TX1-"
 		(shape output)
-		(at 313.69 321.31 180)
+		(at 334.01 321.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14287,7 +14307,7 @@
 		)
 		(uuid "1ae0ef84-d334-4376-9832-c19edc379f4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 321.31 0)
+			(at 334.01 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14448,7 +14468,7 @@
 	)
 	(global_label "TCP1_TXRX0+"
 		(shape bidirectional)
-		(at 313.69 323.85 180)
+		(at 334.01 323.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14458,7 +14478,7 @@
 		)
 		(uuid "22f82fe0-55af-49aa-adfe-4b0735b9d5bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 323.85 0)
+			(at 334.01 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14491,7 +14511,7 @@
 	)
 	(global_label "TCP1_DDC_SDA"
 		(shape bidirectional)
-		(at 313.69 302.26 180)
+		(at 334.01 302.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14501,7 +14521,7 @@
 		)
 		(uuid "2d4f009a-367f-44a4-b496-9dd07d837738")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 302.26 0)
+			(at 334.01 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14903,7 +14923,7 @@
 	)
 	(global_label "TCP1_TXRX1+"
 		(shape bidirectional)
-		(at 313.69 313.69 180)
+		(at 334.01 313.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14913,7 +14933,7 @@
 		)
 		(uuid "6026a204-60e7-4d36-bb3f-c2210fb3afef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 313.69 0)
+			(at 334.01 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15033,7 +15053,7 @@
 	)
 	(global_label "TCP1_AUX+"
 		(shape output)
-		(at 313.69 308.61 180)
+		(at 334.01 308.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15043,7 +15063,7 @@
 		)
 		(uuid "6f0f0ef5-e669-4712-8cc0-9a53e27cb2bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 308.61 0)
+			(at 334.01 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15054,7 +15074,7 @@
 	)
 	(global_label "TCP1_AUX-"
 		(shape output)
-		(at 313.69 311.15 180)
+		(at 334.01 311.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15064,7 +15084,7 @@
 		)
 		(uuid "71d79796-a609-459a-bcab-8354f3b3ff77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 311.15 0)
+			(at 334.01 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15075,7 +15095,7 @@
 	)
 	(global_label "TCP1_HPD"
 		(shape input)
-		(at 313.69 298.45 180)
+		(at 334.01 298.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15085,7 +15105,7 @@
 		)
 		(uuid "77c6b2c4-6a57-4f08-a96d-1f6a68b319e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 298.45 0)
+			(at 334.01 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15224,9 +15244,9 @@
 			)
 		)
 	)
-	(global_label "USB_2_P7-"
+	(global_label "USBC_D-"
 		(shape bidirectional)
-		(at 320.04 212.09 180)
+		(at 334.01 212.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15236,11 +15256,12 @@
 		)
 		(uuid "7f64b06b-dd59-46f1-a883-481ceb6caea0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.04 212.09 0)
+			(at 321.0235 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -15310,7 +15331,7 @@
 	)
 	(global_label "TCP1_TXRX1-"
 		(shape bidirectional)
-		(at 313.69 316.23 180)
+		(at 334.01 316.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15320,7 +15341,7 @@
 		)
 		(uuid "8612f580-a87b-4934-a2e7-c4c4fb9b10e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 316.23 0)
+			(at 334.01 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15438,7 +15459,7 @@
 	)
 	(global_label "TCP1_TX0-"
 		(shape output)
-		(at 313.69 331.47 180)
+		(at 334.01 331.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15448,7 +15469,7 @@
 		)
 		(uuid "8a53b879-f504-4b04-96aa-c4065fe776d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 331.47 0)
+			(at 334.01 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15759,7 +15780,7 @@
 	)
 	(global_label "Bkey_Tx0+"
 		(shape output)
-		(at 334.01 110.49 180)
+		(at 334.01 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15769,7 +15790,7 @@
 		)
 		(uuid "b5fc32b9-8160-46df-b93b-60b1ee30766f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.9253 110.49 0)
+			(at 320.9253 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15781,7 +15802,7 @@
 	)
 	(global_label "TCP1_TXRX0-"
 		(shape bidirectional)
-		(at 313.69 326.39 180)
+		(at 334.01 326.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15791,7 +15812,7 @@
 		)
 		(uuid "b835613e-0a78-4dcd-a9e5-3ee4d7bfbe3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 326.39 0)
+			(at 334.01 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15824,7 +15845,7 @@
 	)
 	(global_label "Bkey_Tx0-"
 		(shape output)
-		(at 334.01 113.03 180)
+		(at 334.01 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15834,7 +15855,7 @@
 		)
 		(uuid "bddf4e55-f2ae-4280-b1e9-f9ff605be65b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.9253 113.03 0)
+			(at 320.9253 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15868,7 +15889,7 @@
 	)
 	(global_label "Bkey_Rx1-"
 		(shape input)
-		(at 334.01 128.27 180)
+		(at 334.01 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15878,7 +15899,7 @@
 		)
 		(uuid "c074e2bd-73f7-4803-ad11-0ca45a723c63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.6229 128.27 0)
+			(at 320.6229 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15998,7 +16019,7 @@
 	)
 	(global_label "Bkey_Tx1-"
 		(shape output)
-		(at 334.01 123.19 180)
+		(at 334.01 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16008,7 +16029,7 @@
 		)
 		(uuid "c6c61ad9-cf25-4942-ab10-9d6b93d920c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.9253 123.19 0)
+			(at 320.9253 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16173,7 +16194,7 @@
 	)
 	(global_label "TCP1_DDC_SCL"
 		(shape output)
-		(at 313.69 304.8 180)
+		(at 334.01 304.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16183,7 +16204,7 @@
 		)
 		(uuid "cb308778-bd94-4bda-b05d-3cae8d3dc306")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 304.8 0)
+			(at 334.01 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16194,7 +16215,7 @@
 	)
 	(global_label "Bkey_Rx0-"
 		(shape input)
-		(at 334.01 118.11 180)
+		(at 334.01 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16204,7 +16225,7 @@
 		)
 		(uuid "cb43413c-a343-464c-816c-43568872c9d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.6229 118.11 0)
+			(at 320.6229 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16281,7 +16302,7 @@
 	)
 	(global_label "Bkey_Rx0+"
 		(shape input)
-		(at 334.01 115.57 180)
+		(at 334.01 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16291,7 +16312,7 @@
 		)
 		(uuid "d474448c-a42c-4d22-87c1-486127c50868")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.6229 115.57 0)
+			(at 320.6229 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16391,7 +16412,7 @@
 	)
 	(global_label "TCP1_TX1+"
 		(shape output)
-		(at 313.69 318.77 180)
+		(at 334.01 318.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16401,7 +16422,7 @@
 		)
 		(uuid "dbd25fa9-4fad-4415-aa4f-dbbfbd28783f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 318.77 0)
+			(at 334.01 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16434,7 +16455,7 @@
 	)
 	(global_label "TCP1_TX0+"
 		(shape output)
-		(at 313.69 328.93 180)
+		(at 334.01 328.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16444,7 +16465,7 @@
 		)
 		(uuid "dcee80fd-5bb0-4cf5-9173-2aec61c658b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.69 328.93 0)
+			(at 334.01 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16499,7 +16520,7 @@
 	)
 	(global_label "Bkey_Rx1+"
 		(shape input)
-		(at 334.01 125.73 180)
+		(at 334.01 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16509,7 +16530,7 @@
 		)
 		(uuid "e18668ea-1cde-4b6e-b932-f95ea8b74e0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.6229 125.73 0)
+			(at 320.6229 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16584,9 +16605,9 @@
 			)
 		)
 	)
-	(global_label "USB_2_P7+"
+	(global_label "USBC_D+"
 		(shape bidirectional)
-		(at 320.04 209.55 180)
+		(at 334.01 209.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16596,11 +16617,12 @@
 		)
 		(uuid "f06c0f6e-126e-4427-9cbf-0fbab004d5b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.04 209.55 0)
+			(at 321.0235 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
