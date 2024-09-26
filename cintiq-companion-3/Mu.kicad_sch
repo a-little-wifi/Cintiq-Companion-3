@@ -13870,6 +13870,16 @@
 		)
 		(uuid "075195d7-cfd6-40b5-b3f4-079c6838a9f4")
 	)
+	(text "invert HPD for eDP???"
+		(exclude_from_sim no)
+		(at 325.12 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a2052ed-f005-4a00-b971-57b326fc0dce")
+	)
 	(text "excluded from board"
 		(exclude_from_sim no)
 		(at 287.02 304.8 0)
@@ -19476,7 +19486,7 @@
 			(uuid "1cb69d0e-3bba-4de3-bb98-90d8d4f9c548")
 		)
 		(instances
-			(project ""
+			(project "cintiq-companion-3"
 				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/c53dd1a3-46f1-4176-9068-ac4182e520b6"
 					(reference "#PWR021")
 					(unit 1)

@@ -10039,7 +10039,7 @@
 			(uuid "12d518b2-890d-4d5c-9541-32cdaf161ba0")
 		)
 		(instances
-			(project ""
+			(project "cintiq-companion-3"
 				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
 					(reference "J5")
 					(unit 1)
@@ -10133,7 +10133,7 @@
 			(uuid "319269e3-4370-418b-b60b-44ded181fd46")
 		)
 		(instances
-			(project ""
+			(project "cintiq-companion-3"
 				(path "/ef92970f-f7a1-4011-9c13-6d46a45b923d/96b88b3f-2d2c-4d3e-bc38-701809cf5f6f"
 					(reference "J6")
 					(unit 1)
