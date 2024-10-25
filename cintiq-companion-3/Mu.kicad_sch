@@ -13738,10 +13738,10 @@
 		)
 		(uuid "6299cc01-6566-4491-b7ce-f492e5b9f2c7")
 	)
-	(text_box "USB2 P3/P4 used for 13HD stuff?"
+	(text_box "USB2 P3/P4 used for M.2 slots"
 		(exclude_from_sim no)
-		(at 265.43 203.2 0)
-		(size 39.37 13.97)
+		(at 264.16 198.12 0)
+		(size 40.64 10.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -13804,10 +13804,10 @@
 		)
 		(uuid "c336e4a6-a0b4-4901-9b3c-8be20ce5cdab")
 	)
-	(text_box "USB2 P1/P2 used for USB3.0?"
+	(text_box "USB2 P1/P2 used for 13HD stuff"
 		(exclude_from_sim no)
-		(at 265.43 193.04 0)
-		(size 39.37 10.16)
+		(at 264.16 187.96 0)
+		(size 40.64 10.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -13825,6 +13825,28 @@
 			(justify left top)
 		)
 		(uuid "cc06d1ef-3f84-49fc-b992-d82449c82685")
+	)
+	(text_box "USB2 P7/P8 used for type-c + ?"
+		(exclude_from_sim no)
+		(at 264.16 208.28 0)
+		(size 40.64 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 121 154 1)
+			)
+			(justify left top)
+		)
+		(uuid "d8ff9fe4-1057-4ca9-ab34-3cd98cad5faf")
 	)
 	(text_box "HSIO 2/3 used for B-key m.2"
 		(exclude_from_sim no)
@@ -13939,7 +13961,7 @@
 		)
 		(uuid "56ebbc9d-2b22-4add-b156-9f24e04a5b5f")
 	)
-	(text "rough HSIO plan:\n\nHSIO A:\nUSB3, 2nd E-key PCIe x1 link and B-key PCIe x2/USB3 link\n0:  USB 3.2 Type-A\n1:  Wifi PCIe x1 link 2\n2:  B-key x2 Lane 1/USB3.2\n3:  B-key x2 Lane 0\n\nHSIO B:\nPCIe 4x1, HSIO11 sata/pcie with gpio for M-key m.2 slot\n8:  SSD PCIe x4 Lane 3\n9:  SSD PCIe x4 Lane 2\n10: SSD PCIe x4 Lane 1 (/ SATA?)\n11: SSD PCIe x4 Lane 0 / SATA\n\nHSIO C:\nPCIe 1x1 for E-key m.2 slot for Wifi\n6:  Wifi PCIe x1 "
+	(text "rough HSIO plan:\n\nHSIO A:\nUSB3, 2nd E-key PCIe x1 link and B-key PCIe x2/USB3 link\n0:  USB 3.2 Type-A\n1:  Wifi PCIe x1 link 2\n2:  B-key x2 Lane 1 / USB3.2\n3:  B-key x2 Lane 0\n\nHSIO B:\nPCIe 4x1, HSIO11 sata/pcie with gpio for M-key m.2 slot\n8:  SSD PCIe x4 Lane 3\n9:  SSD PCIe x4 Lane 2\n10: SSD PCIe x4 Lane 1 (/ SATA?)\n11: SSD PCIe x4 Lane 0 / SATA\n\nHSIO C:\nPCIe 1x1 for E-key m.2 slot for Wifi\n6:  Wifi PCIe x1 "
 		(exclude_from_sim no)
 		(at 127 123.19 0)
 		(effects
