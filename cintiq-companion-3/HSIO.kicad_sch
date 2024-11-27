@@ -6367,7 +6367,7 @@
 	)
 	(global_label "SSD_Rx0-"
 		(shape output)
-		(at 53.34 64.77 180)
+		(at 53.34 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6377,7 +6377,7 @@
 		)
 		(uuid "331e4dfe-2f27-488c-b83c-ae19d4e971cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.6182 64.77 0)
+			(at 40.6182 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,7 +6785,7 @@
 	)
 	(global_label "SSD_Rx0+"
 		(shape output)
-		(at 53.34 62.23 180)
+		(at 53.34 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6795,7 +6795,7 @@
 		)
 		(uuid "7a174947-96b6-4188-bf6c-2470c494fc8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.6182 62.23 0)
+			(at 40.6182 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
