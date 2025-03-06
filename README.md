@@ -13,6 +13,11 @@ Contains a USB2514Bi 4-port USB hub connected as follows:
 
 I thought the USB UART chip (SILABS CP2102) was for the pen digitizer, but it appears to connect to the RTD2483AD display controller chip instead, might be for brightness control.
 
-This is probably the right connector for the touch panel: https://www.lcsc.com/product-detail/Wire-To-Board-Connector_HCTL-HC-0-8-5PWT_C2845346.html
+This is probably the right connector for the touch panel: https://www.lcsc.com/product-detail/Wire-To-Board-Connector_HCTL-HC-0-8-5PWT_C2845346.html  
+
+Possible ipex connectors:  
+https://www.lcsc.com/product-detail/Card-Edge-Connectors_JUSHUO-ALC04-S30EIA-00_C2842535.html  
+https://www.lcsc.com/product-detail/FFC-FPC-Connectors_Lian-Xin-Technology-20455-030E-12_C7527730.html
+
 
 The scanned images are 300ppi, for size reference
